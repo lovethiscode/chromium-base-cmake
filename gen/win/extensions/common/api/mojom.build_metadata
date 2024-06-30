@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../extensions/common/api/mime_handler.mojom"
+  ]
+}

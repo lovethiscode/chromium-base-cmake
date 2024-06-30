@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../../../components/services/storage/privileged/mojom/mojom.build_metadata",
+    "../../../components/services/storage/public/mojom/mojom.build_metadata",
+    "../../../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../content/browser/indexed_db/indexed_db_internals.mojom"
+  ]
+}

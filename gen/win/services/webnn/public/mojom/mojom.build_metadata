@@ -1,0 +1,13 @@
+{
+  "deps": [
+    "../../../../components/ml/webnn/features.build_metadata",
+    "../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../sandbox/policy/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../services/webnn/public/mojom/webnn_buffer.mojom",
+    "../../../../../../../services/webnn/public/mojom/webnn_context_provider.mojom",
+    "../../../../../../../services/webnn/public/mojom/webnn_error.mojom",
+    "../../../../../../../services/webnn/public/mojom/webnn_graph.mojom"
+  ]
+}

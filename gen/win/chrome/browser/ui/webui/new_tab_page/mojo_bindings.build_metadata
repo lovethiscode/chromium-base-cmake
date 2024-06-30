@@ -1,0 +1,12 @@
+{
+  "deps": [
+    "../../../../../skia/public/mojom/mojom.build_metadata",
+    "../../../../../ui/webui/resources/cr_components/color_change_listener/mojom.build_metadata",
+    "../../../../../ui/webui/resources/cr_components/most_visited/mojom.build_metadata",
+    "../../../../../ui/webui/resources/cr_components/searchbox/mojo_bindings.build_metadata",
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/new_tab_page/new_tab_page.mojom"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "deps": [
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../sandbox/policy/mojom/mojom.build_metadata",
+    "../../../../../ui/gfx/image/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/services/util_win/public/mojom/util_read_icon.mojom",
+    "../../../../../../../../chrome/services/util_win/public/mojom/util_win.mojom"
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "traits_headers": [
+      "components/remote_cocoa/common/font_mojom_traits.h",
+      "ui/gfx/font.h",
+      "ui/gfx/platform_font_mac.h"
+    ],
+    "traits_public_deps": [
+      "//ui/base/ime",
+      "//ui/gfx"
+    ],
+    "traits_sources": [
+      "font_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "gfx::PlatformFontMac::SystemFontType",
+        "mojom": "remote_cocoa.mojom.SystemFont"
+      },
+      {
+        "cpp": "gfx::Font::Weight",
+        "mojom": "remote_cocoa.mojom.FontWeight"
+      },
+      {
+        "cpp": "gfx::Font",
+        "mojom": "remote_cocoa.mojom.Font"
+      }
+    ]
+  }
+]

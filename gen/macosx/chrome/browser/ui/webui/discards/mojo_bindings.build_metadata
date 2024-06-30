@@ -1,0 +1,11 @@
+{
+  "deps": [
+    "../../../resource_coordinator/mojo_bindings.build_metadata",
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/discards/discards.mojom",
+    "../../../../../../../../chrome/browser/ui/webui/discards/site_data.mojom"
+  ]
+}

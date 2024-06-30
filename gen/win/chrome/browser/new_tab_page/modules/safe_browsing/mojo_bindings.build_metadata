@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/new_tab_page/modules/safe_browsing/safe_browsing.mojom"
+  ]
+}

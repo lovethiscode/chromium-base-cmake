@@ -1,0 +1,20 @@
+[
+  {
+    "traits_headers": [
+      "chrome/browser/ui/webui/app_home/app_home_mojom_traits.h",
+      "chrome/browser/web_applications/web_app_constants.h"
+    ],
+    "traits_public_deps": [
+      "//chrome/browser/web_applications:web_applications"
+    ],
+    "traits_sources": [
+      "//chrome/browser/ui/webui/app_home/app_home_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::web_app::RunOnOsLoginMode",
+        "mojom": "app_home.mojom.RunOnOsLoginMode"
+      }
+    ]
+  }
+]

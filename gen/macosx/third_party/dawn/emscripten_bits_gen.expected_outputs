@@ -1,0 +1,5 @@
+emscripten-bits/system/include/webgpu/webgpu.h
+emscripten-bits/system/include/webgpu/webgpu_cpp.h
+emscripten-bits/system/include/webgpu/webgpu_cpp_chained_struct.h
+emscripten-bits/webgpu_struct_info.json
+emscripten-bits/library_webgpu_enum_tables.js

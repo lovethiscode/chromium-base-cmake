@@ -1,0 +1,3 @@
+../../components/services/storage/privileged/mojom/indexed_db_client_state_checker.mojom
+../../components/services/storage/privileged/mojom/indexed_db_control.mojom
+../../components/services/storage/privileged/mojom/indexed_db_control_test.mojom

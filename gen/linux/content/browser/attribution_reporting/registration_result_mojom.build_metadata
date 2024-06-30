@@ -1,0 +1,11 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../content/browser/attribution_reporting/aggregatable_result.mojom",
+    "../../../../../../content/browser/attribution_reporting/event_level_result.mojom",
+    "../../../../../../content/browser/attribution_reporting/process_aggregatable_debug_report_result.mojom",
+    "../../../../../../content/browser/attribution_reporting/store_source_result.mojom"
+  ]
+}

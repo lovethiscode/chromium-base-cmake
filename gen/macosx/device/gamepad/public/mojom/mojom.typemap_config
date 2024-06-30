@@ -1,0 +1,58 @@
+[
+  {
+    "traits_headers": [
+      "device/gamepad/public/cpp/gamepad_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//device/gamepad/public/cpp:shared_typemap_traits",
+      "//device/gamepad/public/cpp:shared_with_blink",
+      "//third_party/blink/public:blink_headers"
+    ],
+    "types": [
+      {
+        "cpp": "::device::Gamepad",
+        "mojom": "device.mojom.Gamepad"
+      },
+      {
+        "cpp": "::device::GamepadButton",
+        "mojom": "device.mojom.GamepadButton"
+      },
+      {
+        "cpp": "::device::GamepadHand",
+        "mojom": "device.mojom.GamepadHand"
+      },
+      {
+        "cpp": "::device::GamepadHapticActuator",
+        "mojom": "device.mojom.GamepadHapticActuator",
+        "nullable_is_same_type": true
+      },
+      {
+        "cpp": "::device::GamepadHapticActuatorType",
+        "mojom": "device.mojom.GamepadHapticActuatorType"
+      },
+      {
+        "cpp": "::device::GamepadMapping",
+        "mojom": "device.mojom.GamepadMapping"
+      },
+      {
+        "cpp": "::device::GamepadPose",
+        "mojom": "device.mojom.GamepadPose",
+        "nullable_is_same_type": true
+      },
+      {
+        "cpp": "::device::GamepadQuaternion",
+        "mojom": "device.mojom.GamepadQuaternion",
+        "nullable_is_same_type": true
+      },
+      {
+        "cpp": "::device::GamepadTouch",
+        "mojom": "device.mojom.GamepadTouch"
+      },
+      {
+        "cpp": "::device::GamepadVector",
+        "mojom": "device.mojom.GamepadVector",
+        "nullable_is_same_type": true
+      }
+    ]
+  }
+]

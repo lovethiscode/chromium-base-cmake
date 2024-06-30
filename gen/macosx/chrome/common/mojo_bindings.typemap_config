@@ -1,0 +1,20 @@
+[
+  {
+    "traits_headers": [
+      "chrome/common/mac/app_shim_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//components/variations/net"
+    ],
+    "traits_sources": [
+      "mac/app_shim_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::variations::VariationsCommandLine",
+        "mojom": "chrome.mojom.FeatureState",
+        "move_only": true
+      }
+    ]
+  }
+]

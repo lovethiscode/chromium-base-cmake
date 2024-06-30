@@ -1,0 +1,5 @@
+./setup.exe
+./setup.exe.pdb
+icudtl.dat
+dbghelp.dll
+dbgcore.dll

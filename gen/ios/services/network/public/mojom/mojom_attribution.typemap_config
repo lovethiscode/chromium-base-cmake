@@ -1,0 +1,22 @@
+[
+  {
+    "traits_deps": [
+      "//services/network/public/cpp:attribution_traits"
+    ],
+    "traits_headers": [
+      "services/network/public/cpp/attribution_mojom_traits.h"
+    ],
+    "types": [
+      {
+        "cpp": "::network::TriggerVerification",
+        "mojom": "network.mojom.TriggerVerification",
+        "move_only": true
+      },
+      {
+        "copyable_pass_by_value": true,
+        "cpp": "::network::AttributionReportingRuntimeFeatures",
+        "mojom": "network.mojom.AttributionReportingRuntimeFeatures"
+      }
+    ]
+  }
+]

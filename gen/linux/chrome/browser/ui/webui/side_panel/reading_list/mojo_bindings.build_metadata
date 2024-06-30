@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../../ui/base/mojom/mojom.build_metadata",
+    "../../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../../chrome/browser/ui/webui/side_panel/reading_list/reading_list.mojom"
+  ]
+}

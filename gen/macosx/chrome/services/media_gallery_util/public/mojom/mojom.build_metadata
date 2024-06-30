@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../../../../../media/mojo/mojom/mojom.build_metadata",
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../sandbox/policy/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/services/media_gallery_util/public/mojom/media_parser.mojom"
+  ]
+}

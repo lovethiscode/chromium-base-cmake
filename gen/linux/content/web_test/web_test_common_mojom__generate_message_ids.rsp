@@ -1,0 +1,5 @@
+../../content/web_test/common/fake_bluetooth_chooser.mojom
+../../content/web_test/common/mojo_echo.mojom
+../../content/web_test/common/mojo_optional_numerics_unittest.mojom
+../../content/web_test/common/web_test.mojom
+../../content/web_test/common/web_test_bluetooth_fake_adapter_setter.mojom

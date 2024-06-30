@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../content/test/data/web_ui_ts_test.test-mojom",
+    "../../../../../content/test/data/web_ui_ts_test_types.test-mojom"
+  ]
+}

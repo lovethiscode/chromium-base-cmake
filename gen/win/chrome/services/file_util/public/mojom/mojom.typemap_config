@@ -1,0 +1,23 @@
+[
+  {
+    "traits_headers": [
+      "chrome/common/safe_browsing/archive_analyzer_results.h"
+    ],
+    "traits_private_headers": [
+      "chrome/services/file_util/public/mojom/safe_archive_analyzer_param_traits.h"
+    ],
+    "traits_public_deps": [
+      "//chrome/common/safe_browsing:archive_analyzer_results",
+      "//chrome/common/safe_browsing:proto",
+      "//components/safe_browsing:buildflags",
+      "//components/safe_browsing/core/common/proto:csd_proto",
+      "//ipc:protobuf_support"
+    ],
+    "types": [
+      {
+        "cpp": "::safe_browsing::ArchiveAnalyzerResults",
+        "mojom": "chrome.mojom.SafeArchiveAnalyzerResults"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "traits_headers": [
+      "device/bluetooth/public/mojom/uuid_mojom_traits.h",
+      "device/bluetooth/public/mojom/gatt_characteristic_mojom_traits.h",
+      "device/bluetooth/public/mojom/gatt_service_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//device/bluetooth/public/cpp"
+    ],
+    "traits_sources": [
+      "//device/bluetooth/public/mojom/gatt_characteristic_mojom_traits.cc",
+      "//device/bluetooth/public/mojom/gatt_service_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::device::BluetoothUUID",
+        "mojom": "bluetooth.mojom.UUID"
+      },
+      {
+        "cpp": "::device::BluetoothGattCharacteristic::Properties",
+        "mojom": "bluetooth.mojom.GattCharacteristicProperties"
+      },
+      {
+        "cpp": "::device::BluetoothGattCharacteristic::Permissions",
+        "mojom": "bluetooth.mojom.GattCharacteristicPermissions"
+      },
+      {
+        "cpp": "::device::BluetoothGattService::GattErrorCode",
+        "mojom": "bluetooth.mojom.GattServiceErrorCode"
+      }
+    ]
+  }
+]

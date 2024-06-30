@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../../services/network/public/mojom/url_loader_base.build_metadata",
+    "../../ui/gfx/geometry/mojom/mojom.build_metadata",
+    "../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../pdf/mojom/pdf.mojom"
+  ]
+}

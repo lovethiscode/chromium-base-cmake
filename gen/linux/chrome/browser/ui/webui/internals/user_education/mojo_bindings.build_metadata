@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../../../../chrome/browser/ui/webui/internals/user_education/user_education_internals.mojom"
+  ]
+}

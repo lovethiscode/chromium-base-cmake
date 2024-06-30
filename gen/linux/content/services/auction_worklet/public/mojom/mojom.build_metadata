@@ -1,0 +1,21 @@
+{
+  "deps": [
+    "../../../../common/mojo_bindings.build_metadata",
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../sandbox/policy/mojom/mojom.build_metadata",
+    "../../../../../services/network/public/mojom/mojom.build_metadata",
+    "../../../../../third_party/blink/public/mojom/mojom_platform.build_metadata",
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../content/services/auction_worklet/public/mojom/auction_network_events_handler.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/auction_shared_storage_host.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/auction_worklet_service.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/bidder_worklet.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/private_aggregation_request.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/real_time_reporting.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/reject_reason.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/seller_worklet.mojom",
+    "../../../../../../../../content/services/auction_worklet/public/mojom/trusted_signals_cache.mojom"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "deps": [
+    "../../history_clusters/mojo_bindings.build_metadata",
+    "../../history_clusters/cart/mojo_bindings.build_metadata",
+    "../../history_clusters/discount/mojo_bindings.build_metadata",
+    "../../../../../../components/history_clusters/public/mojom/mojo_bindings.build_metadata",
+    "../../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../../chrome/browser/new_tab_page/modules/v2/history_clusters/history_clusters_v2.mojom"
+  ]
+}

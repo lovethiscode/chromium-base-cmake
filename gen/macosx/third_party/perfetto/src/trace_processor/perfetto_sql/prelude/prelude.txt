@@ -1,0 +1,2 @@
+../../third_party/perfetto/src/trace_processor/perfetto_sql/prelude/tables.sql
+../../third_party/perfetto/src/trace_processor/perfetto_sql/prelude/views.sql

@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../device/bluetooth/public/mojom/adapter.mojom",
+    "../../../../../../../device/bluetooth/public/mojom/device.mojom"
+  ]
+}

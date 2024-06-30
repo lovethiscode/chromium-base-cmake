@@ -1,0 +1,47 @@
+[
+  {
+    "traits_headers": [
+      "chrome/services/util_win/public/mojom/util_win_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//base",
+      "//chrome/browser/win/conflicts:module_info",
+      "//third_party/metrics_proto",
+      "//ui/shell_dialogs"
+    ],
+    "traits_sources": [
+      "util_win_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::metrics::SystemProfileProto_AntiVirusProduct",
+        "mojom": "chrome.mojom.AntiVirusProduct"
+      },
+      {
+        "cpp": "::CertificateInfo::Type",
+        "mojom": "chrome.mojom.CertificateType"
+      },
+      {
+        "cpp": "::ui::FileFilterSpec",
+        "mojom": "chrome.mojom.FileFilterSpec"
+      },
+      {
+        "cpp": "::ModuleInspectionResult",
+        "mojom": "chrome.mojom.InspectionResult",
+        "move_only": true
+      },
+      {
+        "cpp": "::ui::SelectFileDialog::Type",
+        "mojom": "chrome.mojom.SelectFileDialogType"
+      },
+      {
+        "cpp": "::base::win::ShortcutProperties",
+        "mojom": "chrome.mojom.ShortcutProperties"
+      },
+      {
+        "cpp": "::base::win::ShortcutOperation",
+        "mojom": "chrome.mojom.ShortcutOperation"
+      }
+    ]
+  }
+]

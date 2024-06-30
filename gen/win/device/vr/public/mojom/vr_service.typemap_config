@@ -1,0 +1,24 @@
+[
+  {
+    "traits_headers": [
+      "device/vr/public/mojom/vr_service_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      ":vr_public_typemaps"
+    ],
+    "types": [
+      {
+        "cpp": "::device::RgbaTupleF16",
+        "mojom": "device.mojom.RgbaTupleF16"
+      },
+      {
+        "cpp": "::device::RgbTupleF32",
+        "mojom": "device.mojom.RgbTupleF32"
+      },
+      {
+        "cpp": "::device::Pose",
+        "mojom": "device.mojom.Pose"
+      }
+    ]
+  }
+]

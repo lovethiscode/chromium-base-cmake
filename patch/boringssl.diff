@@ -1,0 +1,70 @@
+ CMakeLists.txt | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 26fad80ab..4d1d5472d 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -462,7 +462,7 @@ endif()
+ 
+ # Add minimal googletest targets. The provided one has many side-effects, and
+ # googletest has a very straightforward build.
+-add_library(
++#[[add_library(
+   boringssl_gtest
+   third_party/googletest/googlemock/src/gmock-all.cc
+   third_party/googletest/googletest/src/gtest-all.cc
+@@ -487,7 +487,7 @@ add_custom_target(all_tests)
+ add_subdirectory(ssl/test)
+ add_subdirectory(util/fipstools)
+ add_subdirectory(util/fipstools/acvp/modulewrapper)
+-
++]]
+ if(OPENSSL_ASM)
+   set(CRYPTO_SOURCES_ASM_USED ${CRYPTO_SOURCES_ASM})
+   set(BCM_SOURCES_ASM_USED ${BCM_SOURCES_ASM})
+@@ -618,7 +618,7 @@ add_library(ssl ${SSL_SOURCES})
+ # here.
+ set_property(TARGET ssl PROPERTY EXPORT_NAME SSL)
+ target_link_libraries(ssl crypto)
+-
++#[[
+ add_library(decrepit ${DECREPIT_SOURCES})
+ target_link_libraries(decrepit crypto ssl)
+ 
+@@ -682,7 +682,7 @@ copy_post_build(crypto crypto crypto_test urandom_test)
+ copy_post_build(ssl ssl ssl_test)
+ copy_post_build(decrepit decrepit decrepit_test)
+ copy_post_build(tool bssl)
+-
++]]
+ if(FUZZ)
+   if(LIBFUZZER_FROM_DEPS)
+     file(GLOB LIBFUZZER_SOURCES "util/bot/libFuzzer/*.cpp")
+@@ -707,7 +707,7 @@ endif()
+ if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+   set(HANDSHAKER_ARGS "-handshaker-path" $<TARGET_FILE:handshaker>)
+ endif()
+-
++#[[
+ if(FIPS)
+   add_custom_target(
+     acvp_tests
+@@ -759,7 +759,7 @@ else()
+       COMMAND ${CMAKE_COMMAND} -E echo "Running tests requires Go"
+       COMMAND ${CMAKE_COMMAND} -E false)
+ endif()
+-
++]]
+ if(INSTALL_ENABLED)
+   # CMake versions before 3.14 do not have default destination values. Executable
+   # and library targets that use a default destination should include this
+@@ -773,7 +773,7 @@ if(INSTALL_ENABLED)
+ 
+   install(TARGETS crypto ssl
+           EXPORT OpenSSLTargets ${INSTALL_DESTINATION_DEFAULT})
+-  install(TARGETS bssl DESTINATION ${INSTALL_DESTINATION_DEFAULT})
++#  install(TARGETS bssl DESTINATION ${INSTALL_DESTINATION_DEFAULT})
+   install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+   install(EXPORT OpenSSLTargets
+           FILE OpenSSLTargets.cmake

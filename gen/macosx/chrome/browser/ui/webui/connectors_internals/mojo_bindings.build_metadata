@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/connectors_internals/connectors_internals.mojom"
+  ]
+}

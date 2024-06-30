@@ -1,0 +1,271 @@
+ .../partition_allocator/src/partition_alloc/aarch64_support.h  |  2 +-
+ .../src/partition_alloc/lightweight_quarantine.cc              |  5 ++++-
+ .../partition_alloc/partition_alloc_base/component_export.h    |  5 +----
+ .../src/partition_alloc/starscan/state_bitmap.h                |  4 ++--
+ containers/span.h                                              |  9 +++++++--
+ message_loop/message_pump_libevent.cc                          |  2 +-
+ message_loop/message_pump_libevent.h                           |  2 +-
+ metrics/persistent_histogram_allocator.cc                      | 10 ++++++++--
+ profiler/module_cache.h                                        |  2 +-
+ sampling_heap_profiler/lock_free_address_hash_set.h            |  2 +-
+ strings/cstring_view.h                                         |  9 +++++++--
+ task/sequence_manager/thread_controller.h                      |  4 ++--
+ threading/sequence_local_storage_slot.h                        | 10 +++++-----
+ 13 files changed, 41 insertions(+), 25 deletions(-)
+
+diff --git a/allocator/partition_allocator/src/partition_alloc/aarch64_support.h b/allocator/partition_allocator/src/partition_alloc/aarch64_support.h
+index 49e48baae..0253ca298 100644
+--- a/allocator/partition_allocator/src/partition_alloc/aarch64_support.h
++++ b/allocator/partition_allocator/src/partition_alloc/aarch64_support.h
+@@ -11,7 +11,7 @@
+ #include "partition_alloc/partition_alloc_buildflags.h"
+ 
+ #if PA_BUILDFLAG(IS_ANDROID) || PA_BUILDFLAG(IS_LINUX)
+-#define HAS_HW_CAPS
++//#define HAS_HW_CAPS
+ #endif
+ 
+ #if PA_BUILDFLAG(PA_ARCH_CPU_ARM64) && defined(HAS_HW_CAPS)
+diff --git a/allocator/partition_allocator/src/partition_alloc/lightweight_quarantine.cc b/allocator/partition_allocator/src/partition_alloc/lightweight_quarantine.cc
+index 5b5946620..67bd39f0d 100644
+--- a/allocator/partition_allocator/src/partition_alloc/lightweight_quarantine.cc
++++ b/allocator/partition_allocator/src/partition_alloc/lightweight_quarantine.cc
+@@ -86,7 +86,10 @@ bool LightweightQuarantineBranch::Quarantine(void* object,
+ 
+     // Put the entry onto the list.
+     branch_size_in_bytes_ += usable_size;
+-    slots_.emplace_back(slot_start, usable_size);
++    QuarantineSlot slot;
++    slot.slot_start = slot_start;
++    slot.usable_size = usable_size;
++    slots_.emplace_back(std::move(slot));
+ 
+     // Swap randomly so that the quarantine list remain shuffled.
+     // This is not uniformly random, but sufficiently random.
+diff --git a/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/component_export.h b/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/component_export.h
+index 36c74fa22..c1dec35d7 100644
+--- a/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/component_export.h
++++ b/allocator/partition_allocator/src/partition_alloc/partition_alloc_base/component_export.h
+@@ -15,10 +15,7 @@
+ // If IS_FOO_IMPL=1 at compile time, then Bar will be annotated using the
+ // PA_COMPONENT_EXPORT_ANNOTATION macro defined below. Otherwise it will be
+ // annotated using the PA_COMPONENT_IMPORT_ANNOTATION macro.
+-#define PA_COMPONENT_EXPORT(component)                            \
+-  PA_COMPONENT_MACRO_CONDITIONAL_(IS_##component##_IMPL,          \
+-                                  PA_COMPONENT_EXPORT_ANNOTATION, \
+-                                  PA_COMPONENT_IMPORT_ANNOTATION)
++#define PA_COMPONENT_EXPORT(component)
+ 
+ // Indicates whether the current compilation unit is being compiled as part of
+ // the implementation of the component named |component|. Expands to |1| if
+diff --git a/allocator/partition_allocator/src/partition_alloc/starscan/state_bitmap.h b/allocator/partition_allocator/src/partition_alloc/starscan/state_bitmap.h
+index d90ef8917..f0ff51af0 100644
+--- a/allocator/partition_allocator/src/partition_alloc/starscan/state_bitmap.h
++++ b/allocator/partition_allocator/src/partition_alloc/starscan/state_bitmap.h
+@@ -391,7 +391,7 @@ template <size_t PageSize, size_t PageAlignment, size_t AllocationAlignment>
+ template <typename Filter,
+           typename CallbackForwarder,
+           typename Callback,
+-          bool Clear>
++          bool BoolClear>
+ inline void
+ StateBitmap<PageSize, PageAlignment, AllocationAlignment>::IterateImpl(
+     size_t epoch,
+@@ -421,7 +421,7 @@ StateBitmap<PageSize, PageAlignment, AllocationAlignment>::IterateImpl(
+ 
+       callback_forwarder(callback, object_address, bits);
+ 
+-      if (Clear) {
++      if (BoolClear) {
+         // Clear the current bits.
+         AsAtomicCell(cell_index)
+             .fetch_and(clear_value_mask, std::memory_order_relaxed);
+diff --git a/containers/span.h b/containers/span.h
+index 03cb4233d..f9ef1be6c 100644
+--- a/containers/span.h
++++ b/containers/span.h
+@@ -1569,8 +1569,13 @@ template <class T, class U, size_t N, size_t M>
+            std::three_way_comparable_with<T, U>)
+ constexpr auto span_cmp(span<T, N> l, span<U, M> r)
+     -> decltype(l[0u] <=> r[0u]) {
+-  return std::lexicographical_compare_three_way(l.begin(), l.end(), r.begin(),
+-                                                r.end());
++    if (std::lexicographical_compare(l.begin(), l.end(), r.begin(), r.end())) {
++        return -1;
++    } else if (std::lexicographical_compare(r.begin(), r.end(), l.begin(), l.end())) {
++        return 1;
++    } else {
++        return 0;
++    }
+ }
+ 
+ // Template helper for implementing printing.
+diff --git a/message_loop/message_pump_libevent.cc b/message_loop/message_pump_libevent.cc
+index 3d0deca00..8ffcaf9a5 100644
+--- a/message_loop/message_pump_libevent.cc
++++ b/message_loop/message_pump_libevent.cc
+@@ -20,7 +20,7 @@
+ #include "base/time/time.h"
+ #include "base/trace_event/base_tracing.h"
+ #include "build/build_config.h"
+-#include "third_party/libevent/event.h"
++#include "third_party/libevent/include/event.h"
+ 
+ #if BUILDFLAG(ENABLE_MESSAGE_PUMP_EPOLL)
+ #include "base/message_loop/message_pump_epoll.h"
+diff --git a/message_loop/message_pump_libevent.h b/message_loop/message_pump_libevent.h
+index 4da31e18c..7a0579efd 100644
+--- a/message_loop/message_pump_libevent.h
++++ b/message_loop/message_pump_libevent.h
+@@ -18,7 +18,7 @@
+ #include "base/message_loop/message_pump_buildflags.h"
+ #include "base/message_loop/watchable_io_message_pump_posix.h"
+ #include "base/threading/thread_checker.h"
+-#include "third_party/libevent/event.h"
++#include "third_party/libevent/include/event.h"
+ 
+ // Declare structs we need from libevent.h rather than including it
+ struct event_base;
+diff --git a/metrics/persistent_histogram_allocator.cc b/metrics/persistent_histogram_allocator.cc
+index 785d24a7e..8599f4cc3 100644
+--- a/metrics/persistent_histogram_allocator.cc
++++ b/metrics/persistent_histogram_allocator.cc
+@@ -225,13 +225,19 @@ PersistentSparseHistogramDataManager::LoadRecords(
+     // The sample-record could be for any sparse histogram. Add the reference
+     // to the appropriate collection for later use.
+     if (found_id == match_id) {
+-      found_records.emplace_back(ref, value);
++      ReferenceAndSample sample;
++      sample.reference = ref;
++      sample.value = value;
++      found_records.emplace_back(std::move(sample));
+       found = true;
+     } else {
+       std::vector<ReferenceAndSample>* samples =
+           GetSampleMapRecordsWhileLocked(found_id);
+       CHECK(samples);
+-      samples->emplace_back(ref, value);
++      ReferenceAndSample sample;
++      sample.reference = ref;
++      sample.value = value;
++      samples->emplace_back(std::move(sample));
+     }
+   }
+ 
+diff --git a/profiler/module_cache.h b/profiler/module_cache.h
+index 0a3ca023c..e86c1b58d 100644
+--- a/profiler/module_cache.h
++++ b/profiler/module_cache.h
+@@ -38,7 +38,7 @@ BASE_EXPORT std::string TransformModuleIDToSymbolServerFormat(
+ // lock. Note however that the cache retains a handle to looked-up modules for
+ // its lifetime, which may result in pinning modules in memory that were
+ // transiently loaded by the OS.
+-class BASE_EXPORT ModuleCache {
++class ModuleCache {
+  public:
+   // Module represents a binary module (executable or library) and its
+   // associated state.
+diff --git a/sampling_heap_profiler/lock_free_address_hash_set.h b/sampling_heap_profiler/lock_free_address_hash_set.h
+index a83e01e46..6b0125381 100644
+--- a/sampling_heap_profiler/lock_free_address_hash_set.h
++++ b/sampling_heap_profiler/lock_free_address_hash_set.h
+@@ -42,7 +42,7 @@ namespace base {
+ // 2: {*}--> {NULL,*}--> {key3,*}--> {key4,*}--> NULL
+ // ...
+ // N-1: {*}--> {keyM,*}--> NULL
+-class BASE_EXPORT LockFreeAddressHashSet {
++class LockFreeAddressHashSet {
+  public:
+   explicit LockFreeAddressHashSet(size_t buckets_count);
+   ~LockFreeAddressHashSet();
+diff --git a/strings/cstring_view.h b/strings/cstring_view.h
+index 21962af04..c97865ad6 100644
+--- a/strings/cstring_view.h
++++ b/strings/cstring_view.h
+@@ -419,8 +419,13 @@ class basic_cstring_view final {
+   // different strings can compare as equal.
+   friend constexpr std::weak_ordering operator<=>(basic_cstring_view l,
+                                                   basic_cstring_view r) {
+-    return std::lexicographical_compare_three_way(l.begin(), l.end(), r.begin(),
+-                                                  r.end());
++    if (std::lexicographical_compare(l.begin(), l.end(), r.begin(), r.end())) {
++        return std::weak_ordering::less;
++    } else if (std::lexicographical_compare(r.begin(), r.end(), l.begin(), l.end())) {
++        return std::weak_ordering::greater;
++    } else {
++        return std::weak_ordering::equivalent;
++    }
+   }
+ 
+   // Implicitly converts from cstring_view to a non-NUL-terminated
+diff --git a/task/sequence_manager/thread_controller.h b/task/sequence_manager/thread_controller.h
+index c7f95f60a..4a3261ac0 100644
+--- a/task/sequence_manager/thread_controller.h
++++ b/task/sequence_manager/thread_controller.h
+@@ -46,7 +46,7 @@ class SequencedTaskSource;
+ // Implementation of this interface is used by SequenceManager to schedule
+ // actual work to be run. Hopefully we can stop using MessageLoop and this
+ // interface will become more concise.
+-class BASE_EXPORT ThreadController {
++class ThreadController {
+  public:
+   // Phases the top-RunLevel can go through. While these are more precise than
+   // RunLevelTracker::State, unlike it: phases are determined retrospectively
+@@ -244,7 +244,7 @@ class BASE_EXPORT ThreadController {
+   //         RunLevel corresponding to the nested work.
+   //     iii) Nested instrumented work was visible but didn't appear nested,
+   //          state is now back to kInBetweenWorkItems or kIdle as before (A).
+-  class BASE_EXPORT RunLevelTracker {
++  class RunLevelTracker {
+    public:
+     // States each RunLevel can be in.
+     enum State {
+diff --git a/threading/sequence_local_storage_slot.h b/threading/sequence_local_storage_slot.h
+index db0fe25f7..12be62225 100644
+--- a/threading/sequence_local_storage_slot.h
++++ b/threading/sequence_local_storage_slot.h
+@@ -83,7 +83,7 @@ class GenericSequenceLocalStorageSlot {
+     if (!slot) {
+       return emplace();
+     }
+-    return slot->external_value.value_as<T>();
++      return slot->external_value.template value_as<T>();
+   }
+ 
+   // Returns a pointer to the value for the current sequence. May be
+@@ -92,7 +92,7 @@ class GenericSequenceLocalStorageSlot {
+     auto* value =
+         internal::SequenceLocalStorageMap::GetForCurrentThread().Get(slot_id_);
+     if (value) {
+-      return std::addressof(value->external_value.value_as<T>());
++        return std::addressof(value->external_value.template value_as<T>());
+     }
+     return nullptr;
+   }
+@@ -173,7 +173,7 @@ class SmallSequenceLocalStorageSlot {
+     if (!slot) {
+       return emplace();
+     }
+-    return slot->inline_value.value_as<T>();
++      return slot->inline_value.template value_as<T>();
+   }
+ 
+   // Returns a pointer to the value for the current sequence. May be
+@@ -184,7 +184,7 @@ class SmallSequenceLocalStorageSlot {
+     if (!slot) {
+       return nullptr;
+     }
+-    return &slot->inline_value.value_as<T>();
++      return &slot->inline_value.template value_as<T>();
+   }
+   const T* GetValuePointer() const {
+     return const_cast<SmallSequenceLocalStorageSlot*>(this)->GetValuePointer();
+@@ -213,7 +213,7 @@ class SmallSequenceLocalStorageSlot {
+ 
+     return internal::SequenceLocalStorageMap::GetForCurrentThread()
+         .Set(slot_id_, std::move(value_destructor_pair))
+-        ->inline_value.value_as<T>();
++      ->inline_value.template value_as<T>();
+   }
+ 
+  private:

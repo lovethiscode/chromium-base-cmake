@@ -1,0 +1,11 @@
+{
+  "deps": [
+    "../../../components/services/storage/public/mojom/buckets/buckets.build_metadata",
+    "../../../third_party/blink/public/mojom/quota/quota.build_metadata",
+    "../../../url/mojom/url_mojom_origin.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../storage/browser/quota/quota_internals.mojom",
+    "../../../../../../storage/browser/quota/quota_manager_observer.mojom"
+  ]
+}

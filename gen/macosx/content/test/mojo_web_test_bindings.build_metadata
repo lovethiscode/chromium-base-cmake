@@ -1,0 +1,9 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../content/test/data/lite_js_test.mojom",
+    "../../../../../content/test/data/mojo_web_test_helper_test.mojom"
+  ]
+}

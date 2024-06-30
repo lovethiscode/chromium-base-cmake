@@ -1,0 +1,6 @@
+./updater_test.exe
+./updater_test.exe.pdb
+gen/chrome/updater/win/uninstall.cmd
+icudtl.dat
+dbghelp.dll
+dbgcore.dll

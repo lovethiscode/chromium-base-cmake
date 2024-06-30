@@ -1,0 +1,1 @@
+cmake . -GXcode  -B out/ios -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain/ios.toolchain.cmake -DPLATFORM=OS64 -DIOS=ON -DAPPLE=ON -DPOSIX=ON -DCMAKE_CONFIGURATION_TYPES=Debug -DCMAKE_BUILD_TYPE=Debug

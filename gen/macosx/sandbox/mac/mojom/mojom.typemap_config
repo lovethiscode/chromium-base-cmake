@@ -1,0 +1,20 @@
+[
+  {
+    "traits_headers": [
+      "sandbox/mac/mojom/seatbelt_extension_token_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//sandbox/mac:seatbelt_extension"
+    ],
+    "traits_sources": [
+      "seatbelt_extension_token_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::sandbox::SeatbeltExtensionToken",
+        "mojom": "sandbox.mac.mojom.SeatbeltExtensionToken",
+        "move_only": true
+      }
+    ]
+  }
+]

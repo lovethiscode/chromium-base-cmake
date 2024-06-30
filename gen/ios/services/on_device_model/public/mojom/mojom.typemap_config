@@ -1,0 +1,23 @@
+[
+  {
+    "traits_headers": [
+      "services/on_device_model/public/cpp/adaptation_assets_mojom_traits.h",
+      "services/on_device_model/public/cpp/model_assets_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//services/on_device_model/public/cpp:model_assets"
+    ],
+    "types": [
+      {
+        "cpp": "::on_device_model::ModelAssets",
+        "mojom": "on_device_model.mojom.ModelAssets",
+        "move_only": true
+      },
+      {
+        "cpp": "::on_device_model::AdaptationAssets",
+        "mojom": "on_device_model.mojom.AdaptationAssets",
+        "move_only": true
+      }
+    ]
+  }
+]

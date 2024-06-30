@@ -1,0 +1,14 @@
+../../chrome/common/chrome_render_frame.mojom
+../../chrome/common/google_accounts_private_api_extension.mojom
+../../chrome/common/media/webrtc_logging.mojom
+../../chrome/common/metrics.mojom
+../../chrome/common/net/net_error_page_support.mojom
+../../chrome/common/net_benchmarking.mojom
+../../chrome/common/network_diagnostics.mojom
+../../chrome/common/network_easter_egg.mojom
+../../chrome/common/open_search_description_document_handler.mojom
+../../chrome/common/plugin.mojom
+../../chrome/common/privacy_budget/identifiability_study_configurator.mojom
+../../chrome/common/renderer_configuration.mojom
+../../chrome/common/trusted_vault_encryption_keys_extension.mojom
+../../chrome/common/mac/app_shim.mojom

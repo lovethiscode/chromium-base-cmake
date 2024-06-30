@@ -1,0 +1,33 @@
+[
+  {
+    "traits_headers": [
+      "services/webnn/public/mojom/buffer_usage_mojom_traits.h",
+      "services/webnn/public/mojom/operand_descriptor_mojom_traits.h",
+      "services/webnn/public/mojom/context_properties_mojom_traits.h",
+      "services/webnn/public/mojom/supported_data_types_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      ":webnn_mojom_traits"
+    ],
+    "types": [
+      {
+        "copyable_pass_by_value": true,
+        "cpp": "::webnn::MLBufferUsage",
+        "mojom": "webnn.mojom.BufferUsage"
+      },
+      {
+        "cpp": "::webnn::OperandDescriptor",
+        "default_constructible": false,
+        "mojom": "webnn.mojom.OperandDescriptor"
+      },
+      {
+        "cpp": "::webnn::SupportedDataTypes",
+        "mojom": "webnn.mojom.SupportedDataTypes"
+      },
+      {
+        "cpp": "::webnn::ContextProperties",
+        "mojom": "webnn.mojom.ContextProperties"
+      }
+    ]
+  }
+]

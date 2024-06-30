@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../../content/public/common/renderer_type.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../components/media_control/mojom/media_playback_options.mojom"
+  ]
+}

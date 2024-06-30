@@ -1,0 +1,3 @@
+../../ui/ozone/platform/wayland/mojom/wayland_buffer_manager.mojom
+../../ui/ozone/platform/wayland/mojom/wayland_overlay_config.mojom
+../../ui/ozone/platform/wayland/mojom/wayland_presentation_info.mojom

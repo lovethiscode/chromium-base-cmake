@@ -1,0 +1,36 @@
+{
+  "deps": [
+    "../../components/lens/lens_mojo.build_metadata",
+    "../../components/metrics/public/mojom/histogram_fetcher_mojo_bindings.build_metadata",
+    "../../components/content_settings/common/mojom.build_metadata",
+    "../../components/content_settings/core/common/mojo_bindings.build_metadata",
+    "../../components/no_state_prefetch/common/mojo_bindings.build_metadata",
+    "../../content/public/common/interfaces.build_metadata",
+    "../../mojo/public/mojom/base/base.build_metadata",
+    "../../third_party/blink/public/mojom/mojom_core.build_metadata",
+    "../../third_party/blink/public/mojom/mojom_platform.build_metadata",
+    "../../ui/gfx/geometry/mojom/mojom.build_metadata",
+    "../../ui/gfx/image/mojom/mojom.build_metadata",
+    "../../url/mojom/url_mojom_gurl.build_metadata",
+    "../../url/mojom/url_mojom_origin.build_metadata",
+    "../services/mac_notifications/public/mojom/mojom.build_metadata",
+    "../../components/remote_cocoa/common/mojo.build_metadata",
+    "../services/file_util/public/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../chrome/common/chrome_render_frame.mojom",
+    "../../../../../chrome/common/google_accounts_private_api_extension.mojom",
+    "../../../../../chrome/common/media/webrtc_logging.mojom",
+    "../../../../../chrome/common/metrics.mojom",
+    "../../../../../chrome/common/net/net_error_page_support.mojom",
+    "../../../../../chrome/common/net_benchmarking.mojom",
+    "../../../../../chrome/common/network_diagnostics.mojom",
+    "../../../../../chrome/common/network_easter_egg.mojom",
+    "../../../../../chrome/common/open_search_description_document_handler.mojom",
+    "../../../../../chrome/common/plugin.mojom",
+    "../../../../../chrome/common/privacy_budget/identifiability_study_configurator.mojom",
+    "../../../../../chrome/common/renderer_configuration.mojom",
+    "../../../../../chrome/common/trusted_vault_encryption_keys_extension.mojom",
+    "../../../../../chrome/common/mac/app_shim.mojom"
+  ]
+}

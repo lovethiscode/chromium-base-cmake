@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/reset_password/reset_password.mojom"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata",
+    "../../../../../url/mojom/url_mojom_origin.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/web_app_internals/web_app_internals.mojom"
+  ]
+}

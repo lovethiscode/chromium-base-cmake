@@ -1,0 +1,12 @@
+{
+  "deps": [
+    "../../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../../skia/public/mojom/mojom.build_metadata",
+    "../../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../../chrome/browser/ui/webui/side_panel/customize_chrome/customize_chrome.mojom",
+    "../../../../../../../../../chrome/browser/ui/webui/side_panel/customize_chrome/customize_toolbar/customize_toolbar.mojom",
+    "../../../../../../../../../chrome/browser/ui/webui/side_panel/customize_chrome/wallpaper_search/wallpaper_search.mojom"
+  ]
+}

@@ -1,0 +1,1 @@
+module.exports = {SOURCE_ROOT: '../../../../../../../third_party/devtools-frontend/src/'};

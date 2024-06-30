@@ -1,0 +1,13 @@
+{
+  "deps": [
+    "../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../media/mojo/mojom/speech_recognition_error.mojom",
+    "../../../../../../media/mojo/mojom/speech_recognition_error_code.mojom",
+    "../../../../../../media/mojo/mojom/speech_recognition_grammar.mojom",
+    "../../../../../../media/mojo/mojom/speech_recognition_result.mojom",
+    "../../../../../../media/mojo/mojom/speech_recognizer.mojom"
+  ]
+}

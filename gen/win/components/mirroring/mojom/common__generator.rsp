@@ -1,0 +1,3 @@
+../../components/mirroring/mojom/cast_message_channel.mojom
+../../components/mirroring/mojom/session_observer.mojom
+../../components/mirroring/mojom/session_parameters.mojom

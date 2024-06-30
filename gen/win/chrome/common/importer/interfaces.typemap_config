@@ -1,0 +1,62 @@
+[
+  {
+    "traits_headers": [
+      "chrome/common/importer/imported_bookmark_entry.h",
+      "chrome/common/importer/importer_autofill_form_data_entry.h",
+      "chrome/common/importer/importer_data_types.h",
+      "chrome/common/importer/importer_url_row.h",
+      "components/favicon_base/favicon_usage_data.h"
+    ],
+    "traits_private_headers": [
+      "chrome/common/importer/profile_import_process_param_traits.h",
+      "chrome/common/importer/profile_import_process_param_traits_macros.h"
+    ],
+    "traits_public_deps": [
+      "//chrome/common",
+      "//components/autofill/core/common",
+      "//components/favicon_base",
+      "//ipc"
+    ],
+    "traits_sources": [
+      "profile_import_process_param_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::favicon_base::FaviconUsageDataList",
+        "mojom": "chrome.mojom.FaviconUsageDataList"
+      },
+      {
+        "cpp": "::ImportedBookmarkEntry",
+        "mojom": "chrome.mojom.ImportedBookmarkEntry"
+      },
+      {
+        "cpp": "::ImporterAutofillFormDataEntry",
+        "mojom": "chrome.mojom.ImporterAutofillFormDataEntry"
+      },
+      {
+        "cpp": "::importer::ImporterIE7PasswordInfo",
+        "mojom": "chrome.mojom.ImporterIE7PasswordInfo"
+      },
+      {
+        "cpp": "::ImporterURLRow",
+        "mojom": "chrome.mojom.ImporterURLRow"
+      },
+      {
+        "cpp": "::importer::SearchEngineInfo",
+        "mojom": "chrome.mojom.SearchEngineInfo"
+      },
+      {
+        "cpp": "::importer::SourceProfile",
+        "mojom": "chrome.mojom.SourceProfile"
+      },
+      {
+        "cpp": "::importer::ImportItem",
+        "mojom": "chrome.mojom.ImportItem"
+      },
+      {
+        "cpp": "::importer::ImportedPasswordForm",
+        "mojom": "chrome.mojom.ImportedPasswordForm"
+      }
+    ]
+  }
+]

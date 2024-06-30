@@ -1,0 +1,16 @@
+[
+  {
+    "traits_headers": [
+      "ui/base/mojom/ui_base_types_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//ui/base"
+    ],
+    "types": [
+      {
+        "cpp": "::ui::WindowShowState",
+        "mojom": "ui.mojom.WindowShowState"
+      }
+    ]
+  }
+]

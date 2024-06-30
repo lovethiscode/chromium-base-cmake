@@ -1,0 +1,17 @@
+{
+  "deps": [
+    "../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../services/network/public/mojom/mojom.build_metadata",
+    "../../../skia/public/mojom/mojom.build_metadata",
+    "../../../url/mojom/url_mojom_gurl.build_metadata",
+    "../../../third_party/blink/public/mojom/mojom_platform.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../content/public/common/alternative_error_page_override_info.mojom",
+    "../../../../../../content/public/common/drop_data.mojom",
+    "../../../../../../content/public/common/extra_mojo_js_features.mojom",
+    "../../../../../../content/public/common/resource_usage_reporter.mojom",
+    "../../../../../../content/public/common/webplugininfo.mojom",
+    "../../../../../../content/public/common/window_container_type.mojom"
+  ]
+}

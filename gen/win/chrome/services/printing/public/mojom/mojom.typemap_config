@@ -1,0 +1,45 @@
+[
+  {
+    "traits_headers": [
+      "chrome/services/printing/public/mojom/pdf_render_settings_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//printing"
+    ],
+    "traits_sources": [
+      "pdf_render_settings_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::printing::PdfRenderSettings",
+        "mojom": "printing.mojom.PdfRenderSettings"
+      },
+      {
+        "cpp": "::printing::PdfRenderSettings::Mode",
+        "mojom": "printing.mojom.PdfRenderSettings::Mode"
+      }
+    ]
+  },
+  {
+    "traits_headers": [
+      "chrome/services/printing/public/mojom/pdf_to_pwg_raster_converter_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//printing",
+      "//printing/mojom"
+    ],
+    "traits_sources": [
+      "pdf_to_pwg_raster_converter_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::printing::PwgRasterTransformType",
+        "mojom": "printing.mojom.PwgRasterSettings::TransformType"
+      },
+      {
+        "cpp": "::printing::PwgRasterSettings",
+        "mojom": "printing.mojom.PwgRasterSettings"
+      }
+    ]
+  }
+]

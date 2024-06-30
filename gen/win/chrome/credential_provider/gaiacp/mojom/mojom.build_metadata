@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../../../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../chrome/credential_provider/gaiacp/mojom/gaia_credential_provider_win_hid.mojom"
+  ]
+}

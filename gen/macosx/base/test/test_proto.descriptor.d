@@ -1,0 +1,1 @@
+gen/base/test/test_proto.descriptor: ../../base/test/test.proto

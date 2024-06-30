@@ -1,0 +1,16 @@
+[
+  {
+    "traits_headers": [
+      "device/bluetooth/public/mojom/test/fake_bluetooth_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//device/bluetooth"
+    ],
+    "types": [
+      {
+        "cpp": "::device::BluetoothDevice::ServiceDataMap",
+        "mojom": "bluetooth.mojom.ServiceDataMap"
+      }
+    ]
+  }
+]

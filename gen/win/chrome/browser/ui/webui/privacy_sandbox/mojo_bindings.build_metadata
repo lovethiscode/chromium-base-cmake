@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../../../../../components/content_settings/core/common/content_settings_types.build_metadata",
+    "../../../../../components/content_settings/core/common/mojo_bindings.build_metadata",
+    "../../../../../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/privacy_sandbox/privacy_sandbox_internals.mojom"
+  ]
+}

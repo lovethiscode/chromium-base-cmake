@@ -1,0 +1,17 @@
+[
+  {
+    "traits_headers": [
+      "chrome/browser/ui/webui/tabs/tabs_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//base",
+      "//chrome/browser/ui/tabs:tab_enums"
+    ],
+    "types": [
+      {
+        "cpp": "::TabAlertState",
+        "mojom": "tabs.mojom.TabAlertState"
+      }
+    ]
+  }
+]

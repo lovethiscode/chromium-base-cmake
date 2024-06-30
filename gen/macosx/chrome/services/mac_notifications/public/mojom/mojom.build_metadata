@@ -1,0 +1,11 @@
+{
+  "deps": [
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../sandbox/policy/mojom/mojom.build_metadata",
+    "../../../../../ui/gfx/image/mojom/mojom.build_metadata",
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/services/mac_notifications/public/mojom/mac_notifications.mojom"
+  ]
+}

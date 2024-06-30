@@ -1,0 +1,12 @@
+{
+  "deps": [
+    "../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../mojo/public/mojom/base/protobuf_support.build_metadata",
+    "../../../skia/public/mojom/mojom.build_metadata",
+    "../../../ui/base/mojom/mojom.build_metadata",
+    "../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../chrome/common/companion/visual_query.mojom"
+  ]
+}

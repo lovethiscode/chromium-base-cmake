@@ -1,0 +1,19 @@
+[
+  {
+    "traits_headers": [
+      "chrome/services/mac_notifications/public/mojom/mac_notifications_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//chrome/common/notifications"
+    ],
+    "traits_sources": [
+      "mac_notifications_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::NotificationOperation",
+        "mojom": "mac_notifications.mojom.NotificationOperation"
+      }
+    ]
+  }
+]

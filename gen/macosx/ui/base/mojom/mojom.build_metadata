@@ -1,0 +1,12 @@
+{
+  "deps": [
+    "../../../mojo/public/mojom/base/base.build_metadata",
+    "../../gfx/range/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../ui/base/mojom/themes.mojom",
+    "../../../../../../ui/base/mojom/ui_base_types.mojom",
+    "../../../../../../ui/base/mojom/window_open_disposition.mojom",
+    "../../../../../../ui/base/mojom/attributed_string.mojom"
+  ]
+}

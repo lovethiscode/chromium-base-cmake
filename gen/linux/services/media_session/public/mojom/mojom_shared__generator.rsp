@@ -1,0 +1,4 @@
+../../services/media_session/public/mojom/audio_focus.mojom
+../../services/media_session/public/mojom/constants.mojom
+../../services/media_session/public/mojom/media_controller.mojom
+../../services/media_session/public/mojom/media_session.mojom

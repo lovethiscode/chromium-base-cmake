@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../content/test/data/web_ui_managed_interface_test.test-mojom"
+  ]
+}

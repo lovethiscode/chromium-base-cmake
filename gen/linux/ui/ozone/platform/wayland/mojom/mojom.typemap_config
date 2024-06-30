@@ -1,0 +1,42 @@
+[
+  {
+    "traits_deps": [
+      "//components/crash/core/common:crash_key",
+      "//ui/ozone/platform/wayland:common"
+    ],
+    "traits_headers": [
+      "ui/ozone/platform/wayland/mojom/wayland_overlay_config_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "wayland_overlay_config_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::wl::WaylandOverlayConfig",
+        "mojom": "wl.mojom.WaylandOverlayConfig",
+        "move_only": true
+      },
+      {
+        "cpp": "::absl::variant<::gfx::OverlayTransform, ::gfx::Transform>",
+        "mojom": "wl.mojom.TransformUnion"
+      }
+    ]
+  },
+  {
+    "traits_deps": [
+      "//ui/ozone/platform/wayland:common"
+    ],
+    "traits_headers": [
+      "ui/ozone/platform/wayland/mojom/wayland_presentation_info_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "wayland_presentation_info_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::wl::WaylandPresentationInfo",
+        "mojom": "wl.mojom.WaylandPresentationInfo"
+      }
+    ]
+  }
+]

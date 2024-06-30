@@ -1,0 +1,6 @@
+../../chrome/browser/lens/core/mojom/geometry.mojom
+../../chrome/browser/lens/core/mojom/lens.mojom
+../../chrome/browser/lens/core/mojom/overlay_object.mojom
+../../chrome/browser/lens/core/mojom/polygon.mojom
+../../chrome/browser/lens/core/mojom/search_bubble.mojom
+../../chrome/browser/lens/core/mojom/text.mojom

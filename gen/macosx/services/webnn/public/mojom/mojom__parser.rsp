@@ -1,0 +1,4 @@
+../../services/webnn/public/mojom/webnn_buffer.mojom
+../../services/webnn/public/mojom/webnn_context_provider.mojom
+../../services/webnn/public/mojom/webnn_error.mojom
+../../services/webnn/public/mojom/webnn_graph.mojom

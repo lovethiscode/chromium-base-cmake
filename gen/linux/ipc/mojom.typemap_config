@@ -1,0 +1,22 @@
+[
+  {
+    "traits_headers": [
+      "ipc/message_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//ipc:message_support"
+    ],
+    "traits_sources": [
+      "//ipc/message_mojom_traits.cc",
+      "//ipc/message_view.cc",
+      "//ipc/message_view.h"
+    ],
+    "types": [
+      {
+        "cpp": "::IPC::MessageView",
+        "mojom": "IPC.mojom.Message",
+        "move_only": true
+      }
+    ]
+  }
+]

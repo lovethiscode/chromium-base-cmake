@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../chrome/common/offline_page_auto_fetcher.mojom"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../ui/ozone/platform/wayland/mojom/wayland_overlay_config_traits_test_service.mojom"
+  ]
+}

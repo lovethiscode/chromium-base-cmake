@@ -1,0 +1,6 @@
+../../services/tracing/public/mojom/background_tracing_agent.mojom
+../../services/tracing/public/mojom/system_tracing_service.mojom
+../../services/tracing/public/mojom/traced_process.mojom
+../../services/tracing/public/mojom/tracing_service.mojom
+../../services/tracing/public/mojom/constants.mojom
+../../services/tracing/public/mojom/perfetto_service.mojom

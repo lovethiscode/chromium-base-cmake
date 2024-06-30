@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/data_sharing_internals/data_sharing_internals.mojom"
+  ]
+}

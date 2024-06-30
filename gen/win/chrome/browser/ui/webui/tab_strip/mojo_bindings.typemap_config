@@ -1,0 +1,16 @@
+[
+  {
+    "traits_headers": [
+      "chrome/browser/ui/webui/tab_strip/tab_strip_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//chrome/browser/extensions:extensions"
+    ],
+    "types": [
+      {
+        "cpp": "::TabNetworkState",
+        "mojom": "tab_strip.mojom.TabNetworkState"
+      }
+    ]
+  }
+]

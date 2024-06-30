@@ -1,0 +1,107 @@
+[
+  {
+    "traits_headers": [
+      "extensions/common/mojom/channel_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//components/version_info:channel"
+    ],
+    "types": [
+      {
+        "cpp": "version_info::Channel",
+        "mojom": "extensions.mojom.Channel"
+      }
+    ]
+  },
+  {
+    "traits_headers": [
+      "extensions/common/mojom/permission_set_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "//extensions/common/mojom/permission_set_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::std::unique_ptr<::extensions::APIPermission>",
+        "mojom": "extensions.mojom.APIPermission",
+        "move_only": true
+      },
+      {
+        "cpp": "::extensions::APIPermissionSet",
+        "mojom": "extensions.mojom.APIPermissionSet",
+        "move_only": true
+      },
+      {
+        "cpp": "::std::unique_ptr<::extensions::ManifestPermission>",
+        "mojom": "extensions.mojom.ManifestPermission",
+        "move_only": true
+      },
+      {
+        "cpp": "::extensions::ManifestPermissionSet",
+        "mojom": "extensions.mojom.ManifestPermissionSet",
+        "move_only": true
+      },
+      {
+        "cpp": "::extensions::PermissionSet",
+        "mojom": "extensions.mojom.PermissionSet",
+        "move_only": true
+      }
+    ]
+  },
+  {
+    "traits_headers": [
+      "extensions/common/mojom/url_pattern_set_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "//extensions/common/mojom/url_pattern_set_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::URLPattern",
+        "mojom": "extensions.mojom.URLPattern"
+      },
+      {
+        "cpp": "::extensions::URLPatternSet",
+        "mojom": "extensions.mojom.URLPatternSet",
+        "move_only": true
+      }
+    ]
+  },
+  {
+    "traits_headers": [
+      "extensions/common/mojom/stack_frame_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "//extensions/common/mojom/stack_frame_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::extensions::StackFrame",
+        "mojom": "extensions.mojom.StackFrame"
+      }
+    ]
+  },
+  {
+    "traits_headers": [
+      "extensions/common/mojom/message_port_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "//extensions/common/mojom/message_port_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::extensions::Message",
+        "mojom": "extensions.mojom.Message",
+        "move_only": true
+      },
+      {
+        "cpp": "::extensions::PortId",
+        "mojom": "extensions.mojom.PortId"
+      },
+      {
+        "cpp": "::extensions::MessagingEndpoint",
+        "mojom": "extensions.mojom.MessagingEndpoint"
+      }
+    ]
+  }
+]

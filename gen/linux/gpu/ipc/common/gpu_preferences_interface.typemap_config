@@ -1,0 +1,20 @@
+[
+  {
+    "traits_deps": [
+
+    ],
+    "traits_headers": [
+      "gpu/ipc/common/gpu_preferences_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//media:media_buildflags",
+      "//ui/base:features"
+    ],
+    "types": [
+      {
+        "cpp": "::gpu::GpuPreferences",
+        "mojom": "gpu.mojom.GpuPreferences"
+      }
+    ]
+  }
+]

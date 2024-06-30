@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "../../../services/media_session/public/mojom/mojom.build_metadata",
+    "../../../url/mojom/url_mojom_origin.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../chrome/browser/media/media_engagement_score_details.mojom"
+  ]
+}

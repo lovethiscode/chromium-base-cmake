@@ -1,0 +1,2 @@
+../../components/services/heap_profiling/public/mojom/heap_profiling_client.mojom
+../../components/services/heap_profiling/public/mojom/heap_profiling_service.mojom

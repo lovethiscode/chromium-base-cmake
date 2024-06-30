@@ -1,0 +1,26 @@
+[
+  {
+    "traits_headers": [
+      "media/mojo/mojom/stable/native_pixmap_handle_mojom_traits.h",
+      "ui/gfx/native_pixmap_handle.h"
+    ],
+    "traits_public_deps": [
+      "//ui/gfx:memory_buffer"
+    ],
+    "traits_sources": [
+      "native_pixmap_handle_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::gfx::NativePixmapHandle",
+        "mojom": "media.stable.mojom.NativePixmapHandle",
+        "move_only": true
+      },
+      {
+        "cpp": "::gfx::NativePixmapPlane",
+        "mojom": "media.stable.mojom.NativePixmapPlane",
+        "move_only": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+../../content/public/common/alternative_error_page_override_info.mojom
+../../content/public/common/drop_data.mojom
+../../content/public/common/extra_mojo_js_features.mojom
+../../content/public/common/resource_usage_reporter.mojom
+../../content/public/common/webplugininfo.mojom
+../../content/public/common/window_container_type.mojom

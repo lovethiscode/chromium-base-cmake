@@ -1,0 +1,46 @@
+[
+  {
+    "traits_deps": [
+      "//ipc",
+      "//services/network/public/cpp:cpp_base",
+      "//services/network/public/mojom",
+      "//third_party/blink/public:blink_headers",
+      "//ui/accessibility:ax_enums_mojo",
+      "//ui/base",
+      "//ui/gfx/ipc"
+    ],
+    "traits_headers": [
+      "content/public/common/drop_data.h"
+    ],
+    "traits_private_headers": [
+      "content/public/common/common_param_traits_macros.h"
+    ],
+    "types": [
+      {
+        "cpp": "::content::DropData",
+        "mojom": "content.mojom.DropData"
+      }
+    ]
+  },
+  {
+    "traits_deps": [
+      "//ipc"
+    ],
+    "traits_headers": [
+      "content/public/common/webplugininfo.h"
+    ],
+    "traits_private_headers": [
+      "content/public/common/webplugininfo_param_traits.h"
+    ],
+    "traits_public_deps": [
+      "//base",
+      "//skia"
+    ],
+    "types": [
+      {
+        "cpp": "::content::WebPluginInfo",
+        "mojom": "content.mojom.WebPluginInfo"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "../../../../../skia/public/mojom/mojom.build_metadata",
+    "../../../../../ui/webui/resources/cr_components/most_visited/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/new_tab_page_third_party/new_tab_page_third_party.mojom"
+  ]
+}
