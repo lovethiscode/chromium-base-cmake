@@ -83,7 +83,7 @@ if(NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/googletest/src)
     )
 endif()
 
-if(LINUX)
+if(LINUX OR ANDROID)
     #libevent
     #https://github.com/libevent/libevent.git
     if(NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libevent)
@@ -96,8 +96,21 @@ if(LINUX)
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libevent
         )
     endif()
-endif(LINUX)
+endif()
 
+if(ANDROID)
+    #https://chromium.googlesource.com/external/github.com/google/cpu_features.git
+    if(NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/cpu_features/src)
+        execute_process(
+        COMMAND git clone https://chromium.googlesource.com/external/github.com/google/cpu_features.git ${CMAKE_CURRENT_SOURCE_DIR}/third_party/cpu_features/src
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+        )
+        execute_process(
+        COMMAND git checkout 936b9ab5515dead115606559502e3864958f7f6e
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/third_party/cpu_features/src
+        )
+    endif()
+endif(ANDROID)
 
 
 set(use_partition_alloc ON)
@@ -142,6 +155,23 @@ elseif(LINUX)
     set(EVENT__DISABLE_TESTS ON)
     set(enable_message_pump_epoll ON)
 elseif(ANDROID)
+  message("ANDROID_ABI :${ANDROID_ABI}")
+  if(${ANDROID_ABI} STREQUAL "x86")
+    set(CURRENT_CPU "x86")
+  elseif(${ANDROID_ABI} STREQUAL "arm64-v8a")
+    set(CURRENT_CPU "arm64")
+  elseif(${ANDROID_ABI} STREQUAL "armeabi-v7a")
+    set(CURRENT_CPU "arm")
+  endif()
+  set(use_libevent ON)
+  set(EVENT__LIBRARY_TYPE "STATIC")
+  set(EVENT__DISABLE_OPENSSL ON)
+  set(EVENT__DISABLE_SAMPLES ON)
+  set(EVENT__DISABLE_BENCHMARK ON)
+  set(EVENT__DISABLE_TESTS ON)
+  set(enable_message_pump_epoll ON)
+else()
+    message(FATAL_ERROR "unknown platform")
 endif(WIN32)
 
 #cmake 工具文件
@@ -177,9 +207,13 @@ set_target_properties(gtest PROPERTIES FOLDER "googletest")
 set_target_properties(gmock PROPERTIES FOLDER "googletest")
 set_target_properties(gtest_main PROPERTIES FOLDER "googletest")
 
-if(LINUX)
+if(LINUX OR ANDROID)
  add_subdirectory(third_party/libevent)
-endif(LINUX)
+endif()
+
+if(ANDROID)
+    add_subdirectory(third_party/cpu_features/src)
+endif(ANDROID)
 
 
 
@@ -214,6 +248,11 @@ elseif(LINUX)
     target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/gen/linux   
 ${CMAKE_CURRENT_SOURCE_DIR}/gen/linux/base/allocator/partition_allocator/src
 ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libevent/include)
+elseif(ANDROID)
+    target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/gen/android
+    ${CMAKE_CURRENT_SOURCE_DIR}/gen/android/base/allocator/partition_allocator/src
+    ${CMAKE_CURRENT_SOURCE_DIR}/gen/android/jni_headers
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/cpu_features/src/ndk_compat)
 endif(WIN32)
 
 target_include_directories(${PROJECT_NAME} PRIVATE
@@ -1161,6 +1200,11 @@ PRIVATE
       "base/process/process_metrics_linux.cc"
       "base/system/sys_info_linux.cc"
       "base/time/time_android.cc"
+      # jni_zero
+      "third_party/jni_zero/jni_zero.cc"
+      "third_party/jni_zero/logging.cc"
+      # ashmem
+      "third_party/ashmem/ashmem-dev.c"
 )
 
     if(can_unwind_with_cfi_table)
@@ -2133,8 +2177,13 @@ find_library(Security_t Security)
 list(APPEND COMMON_LIBRARY ${CoreFoundation_t} ${Foundation_t} ${CoreGraphics_t} ${CoreText_t} ${UIKit_t} ${Security_t})
 elseif(LINUX)
 list(APPEND COMMON_LIBRARY event)
+elseif(ANDROID)
+list(APPEND COMMON_LIBRARY event android log cpu_features ndk_compat)
 endif()
 
 target_link_libraries(${PROJECT_NAME} PUBLIC  ${COMMON_LIBRARY})
 
-add_subdirectory(test)
+add_subdirectory(example/console)
+if(MACOSX)
+    add_subdirectory(example/MACOSX)
+endif(MACOSX)

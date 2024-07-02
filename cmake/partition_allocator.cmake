@@ -57,6 +57,9 @@ elseif(IOS)
 elseif(LINUX)
     target_include_directories(${PROJECT_NAME_RAW_PTR} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src" 
     "${CMAKE_CURRENT_SOURCE_DIR}/gen/linux/base/allocator/partition_allocator/src")
+elseif(ANDROID)
+    target_include_directories(${PROJECT_NAME_RAW_PTR} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src" 
+    "${CMAKE_CURRENT_SOURCE_DIR}/gen/android/base/allocator/partition_allocator/src")
 endif()
 
 target_link_libraries(${PROJECT_NAME_RAW_PTR})
@@ -213,6 +216,11 @@ nice_target_sources(${PROJECT_NAME_ALLOCATOR_CORE} ${partition_allocator_real_pa
 PRIVATE
 "base/allocator/partition_allocator/src/partition_alloc/stack/asm/arm64/push_registers_asm.cc"
 )
+elseif(CURRENT_CPU STREQUAL "arm")
+nice_target_sources(${PROJECT_NAME_ALLOCATOR_CORE} ${partition_allocator_real_path}
+PRIVATE
+"base/allocator/partition_allocator/src/partition_alloc/stack/asm/arm/push_registers_asm.cc"
+)
 else()
     #if (current_cpu == "x64") {
     #assert(stack_scan_supported)
@@ -233,7 +241,7 @@ else()
     # To support a trampoline for another arch, please refer to v8/src/heap/base.
   #  assert(!stack_scan_supported)
   #}
-  message(FATAL_ERROR "未知")
+  message(FATAL_ERROR "unknown cpu")
 endif()
 
 
@@ -249,6 +257,9 @@ target_include_directories(${PROJECT_NAME_ALLOCATOR_CORE} PRIVATE "${CMAKE_CURRE
 elseif(LINUX)
 target_include_directories(${PROJECT_NAME_ALLOCATOR_CORE} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src" 
 "${CMAKE_CURRENT_SOURCE_DIR}/gen/linux/base/allocator/partition_allocator/src")
+elseif(ANDROID)
+target_include_directories(${PROJECT_NAME_ALLOCATOR_CORE} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src"
+"${CMAKE_CURRENT_SOURCE_DIR}/gen/android/base/allocator/partition_allocator/src")
 endif()
 target_link_libraries(${PROJECT_NAME_ALLOCATOR_CORE})
 
@@ -434,6 +445,9 @@ target_include_directories(${PROJECT_NAME_ALLOCATOR_BASE} PRIVATE "${CMAKE_CURRE
 elseif(LINUX)
 target_include_directories(${PROJECT_NAME_ALLOCATOR_BASE} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src" 
 "${CMAKE_CURRENT_SOURCE_DIR}/gen/linux/base/allocator/partition_allocator/src")
+elseif(ANDROID)
+target_include_directories(${PROJECT_NAME_ALLOCATOR_BASE} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src"
+"${CMAKE_CURRENT_SOURCE_DIR}/gen/android/base/allocator/partition_allocator/src")
 endif()
 target_link_libraries(${PROJECT_NAME_ALLOCATOR_BASE})
 
@@ -554,7 +568,9 @@ if(WIN32)
     elseif(LINUX)
     target_include_directories(${PROJECT_NAME_ALLOCATOR_SHIM} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src"
     "${CMAKE_CURRENT_SOURCE_DIR}/gen/linux/base/allocator/partition_allocator/src")
-
+    elseif(ANDROID)
+    target_include_directories(${PROJECT_NAME_ALLOCATOR_SHIM} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/base/allocator/partition_allocator/src"
+    "${CMAKE_CURRENT_SOURCE_DIR}/gen/android/base/allocator/partition_allocator/src")
 endif()
     target_link_libraries(${PROJECT_NAME_ALLOCATOR_SHIM})
 
