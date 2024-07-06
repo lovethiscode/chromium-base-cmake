@@ -2,7 +2,11 @@
  .../src/partition_alloc/lightweight_quarantine.cc              |  5 ++++-
  .../partition_alloc/partition_alloc_base/component_export.h    |  5 +----
  .../src/partition_alloc/starscan/state_bitmap.h                |  4 ++--
+ android/java/src/org/chromium/base/BuildInfo.java              |  2 +-
+ android/java/src/org/chromium/base/Log.java                    |  2 +-
+ .../chromium/base/process_launcher/ChildProcessConnection.java |  2 +-
  containers/span.h                                              |  9 +++++++--
+ message_loop/message_pump_apple.h                              |  2 +-
  message_loop/message_pump_libevent.cc                          |  2 +-
  message_loop/message_pump_libevent.h                           |  2 +-
  metrics/persistent_histogram_allocator.cc                      | 10 ++++++++--
@@ -11,7 +15,7 @@
  strings/cstring_view.h                                         |  9 +++++++--
  task/sequence_manager/thread_controller.h                      |  4 ++--
  threading/sequence_local_storage_slot.h                        | 10 +++++-----
- 13 files changed, 41 insertions(+), 25 deletions(-)
+ 17 files changed, 45 insertions(+), 29 deletions(-)
 
 diff --git a/allocator/partition_allocator/src/partition_alloc/aarch64_support.h b/allocator/partition_allocator/src/partition_alloc/aarch64_support.h
 index 49e48baae..0253ca298 100644
@@ -80,6 +84,45 @@ index d90ef8917..f0ff51af0 100644
          // Clear the current bits.
          AsAtomicCell(cell_index)
              .fetch_and(clear_value_mask, std::memory_order_relaxed);
+diff --git a/android/java/src/org/chromium/base/BuildInfo.java b/android/java/src/org/chromium/base/BuildInfo.java
+index e449d61f9..bf072a39e 100644
+--- a/android/java/src/org/chromium/base/BuildInfo.java
++++ b/android/java/src/org/chromium/base/BuildInfo.java
+@@ -64,7 +64,7 @@ public class BuildInfo {
+     public final String packageName;
+ 
+     /** The versionCode of the apk. */
+-    public final long versionCode = BuildConfig.VERSION_CODE;
++    public final long versionCode = 0;
+ 
+     /** The versionName of Chrome/WebView. Use application context for host app versionName. */
+     public final String versionName;
+diff --git a/android/java/src/org/chromium/base/Log.java b/android/java/src/org/chromium/base/Log.java
+index 8d67d9a81..2c14c0fa8 100644
+--- a/android/java/src/org/chromium/base/Log.java
++++ b/android/java/src/org/chromium/base/Log.java
+@@ -74,7 +74,7 @@ public class Log {
+      */
+     @AlwaysInline
+     public static boolean isLoggable(String tag, int level) {
+-        return BuildConfig.ENABLE_DEBUG_LOGS || android.util.Log.isLoggable(tag, level);
++        return android.util.Log.isLoggable(tag, level);
+     }
+ 
+     /**
+diff --git a/android/java/src/org/chromium/base/process_launcher/ChildProcessConnection.java b/android/java/src/org/chromium/base/process_launcher/ChildProcessConnection.java
+index 0f70ae538..f1c37277d 100644
+--- a/android/java/src/org/chromium/base/process_launcher/ChildProcessConnection.java
++++ b/android/java/src/org/chromium/base/process_launcher/ChildProcessConnection.java
+@@ -623,7 +623,7 @@ public class ChildProcessConnection {
+                 // browser process launched (i.e. if the install somehow did not kill our process)
+                 PackageInfo latestPackage = PackageUtils.getApplicationPackageInfo(0);
+                 long latestVersionCode = BuildInfo.packageVersionCode(latestPackage);
+-                long loadedVersionCode = BuildConfig.VERSION_CODE;
++                long loadedVersionCode = 0;
+                 if (latestVersionCode != loadedVersionCode) {
+                     // Crashing the process is likely to improve the situation - when we are next
+                     // launched, we should be running the new version and match new children.
 diff --git a/containers/span.h b/containers/span.h
 index 03cb4233d..f9ef1be6c 100644
 --- a/containers/span.h
@@ -100,6 +143,19 @@ index 03cb4233d..f9ef1be6c 100644
  }
  
  // Template helper for implementing printing.
+diff --git a/message_loop/message_pump_apple.h b/message_loop/message_pump_apple.h
+index 2c71ce77d..1d68afc3b 100644
+--- a/message_loop/message_pump_apple.h
++++ b/message_loop/message_pump_apple.h
+@@ -361,7 +361,7 @@ class BASE_EXPORT ScopedPumpMessagesInPrivateModes {
+   int GetModeMaskForTest();
+ };
+ 
+-class MessagePumpNSApplication : public MessagePumpCFRunLoopBase {
++class BASE_EXPORT MessagePumpNSApplication : public MessagePumpCFRunLoopBase {
+  public:
+   MessagePumpNSApplication();
+ 
 diff --git a/message_loop/message_pump_libevent.cc b/message_loop/message_pump_libevent.cc
 index 3d0deca00..8ffcaf9a5 100644
 --- a/message_loop/message_pump_libevent.cc
