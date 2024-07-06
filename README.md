@@ -11,9 +11,11 @@ Each platform provides a script. Running the script will automatically pull the 
   - windows sdk: 10.0.26100.0
   - clang
   ```
-   //cmake . -B out/win -G "Visual Studio 17 2022" -A x64 -T ClangCL -DCHROM_BUILD_SHARED=ON
-  .\vs_generate.bat
+  1 .\vs_generate.bat
+  2  Open the project located in the out/win directory through VS 2022.
+
   ```
+ You can also make use of other versions of VS.
 
 
 ## Mac/iOS
@@ -26,9 +28,13 @@ Each platform provides a script. Running the script will automatically pull the 
 #    SIMULATORARM64 = arm64
 #    MAC = x86_64
 #    MAC_ARM64 = arm64
-//cmake . -GXcode  -B out/macosx -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain/ios.toolchain.cmake -DPLATFORM=MAC_ARM64 -DMACOSX=ON -DAPPLE=ON -DPOSIX=ON -DCMAKE_CONFIGURATION_TYPES=Debug -DCMAKE_BUILD_TYPE=Debug
-.\osx_generate.sh
+MAC
+1  .\osx_generate.sh
+2  Open the project located in the out/macosx directory through XCode.
 
+iOS
+1  .\ios_generate.sh
+2  Open the project located in the out/ios directory through XCode.
 ```
 
 ## Linux
@@ -47,70 +53,9 @@ sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-17 100
 ```
 
 ## Android
- - cmake_version: 3.29
- - arguments: "-DPOSIX=ON", "-DCHROM_BUILD_SHARED=ON"
- - ndk: 26
-
 ```
-plugins {
-    alias(libs.plugins.android.application)
-}
+ Open the project located in the example/Android directory through Android Studio.
 
-android {
-    namespace = "com.example.myapplication"
-    compileSdk = 34
 
-    defaultConfig {
-        applicationId = "com.example.myapplication"
-        minSdk = 29
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        externalNativeBuild {
-            cmake {
-                cppFlags += "-std=c++20"
-                arguments("-DPOSIX=ON", "-DCHROM_BUILD_SHARED=ON")
-            }
-        }
-        ndk {
-            abiFilters.addAll(listOf("arm64-v8a"))
-        }
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-    }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    externalNativeBuild {
-        cmake {
-            path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.29.2"
-        }
-    }
-    buildFeatures {
-        viewBinding = true
-    }
-}
-
-dependencies {
-
-    implementation(libs.appcompat)
-    implementation(libs.material)
-    implementation(libs.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
-}
 
 ```
