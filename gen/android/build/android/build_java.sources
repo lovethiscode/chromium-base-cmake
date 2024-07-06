@@ -1,0 +1,9 @@
+../../build/android/java/src/org/chromium/build/annotations/AlwaysInline.java
+../../build/android/java/src/org/chromium/build/annotations/AssumeNonNull.java
+../../build/android/java/src/org/chromium/build/annotations/CheckDiscard.java
+../../build/android/java/src/org/chromium/build/annotations/DoNotClassMerge.java
+../../build/android/java/src/org/chromium/build/annotations/DoNotInline.java
+../../build/android/java/src/org/chromium/build/annotations/DoNotStripLogs.java
+../../build/android/java/src/org/chromium/build/annotations/IdentifierNameString.java
+../../build/android/java/src/org/chromium/build/annotations/MockedInTests.java
+../../build/android/java/src/org/chromium/build/annotations/UsedByReflection.java

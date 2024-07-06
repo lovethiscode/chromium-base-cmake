@@ -1,0 +1,2 @@
+../../build/android/java/test/NoSignatureChangeIncrementalJavacTestHelper2.java
+gen/build/android/test/incremental_javac_gn/test/NoSignatureChangeIncrementalJavacTestHelper.java

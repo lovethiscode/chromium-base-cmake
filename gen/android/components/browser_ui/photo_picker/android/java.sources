@@ -1,0 +1,16 @@
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/BitmapScalerTask.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/BitmapUtils.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/DecodeVideoTask.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/DecoderServiceHost.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/FileEnumWorkerTask.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/ImageDecoder.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PhotoPickerDelegateBase.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PhotoPickerDialog.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PhotoPickerFeatures.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PhotoPickerToolbar.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PickerAdapter.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PickerBitmap.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PickerBitmapView.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PickerBitmapViewHolder.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PickerCategoryView.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PickerVideoPlayer.java

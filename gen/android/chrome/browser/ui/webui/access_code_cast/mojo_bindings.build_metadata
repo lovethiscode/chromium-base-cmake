@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../../../../components/media_router/common/mojom/route_request_result_code.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/access_code_cast/access_code_cast.mojom"
+  ]
+}

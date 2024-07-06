@@ -1,0 +1,16 @@
+../../third_party/cardboard/src/sdk/device_params/android/java/com/google/cardboard/sdk/deviceparams/CardboardV1DeviceParams.java
+../../third_party/cardboard/src/sdk/device_params/android/java/com/google/cardboard/sdk/deviceparams/DeviceParamsUtils.java
+../../third_party/cardboard/src/sdk/java_utils/android/java/com/google/cardboard/sdk/UsedByNative.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/HeadsetDetectionActivity.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/QrCodeCaptureActivity.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/AsyncTask.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/CardboardParamsUtils.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/InputStreamProvider.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/OutputStreamProvider.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/QrCodeContentProcessor.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/QrCodeTracker.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/QrCodeTrackerFactory.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/UrlFactory.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/camera/CameraSource.java
+../../third_party/cardboard/src/sdk/qrcode/android/java/com/google/cardboard/sdk/qrcode/camera/CameraSourcePreview.java
+../../third_party/cardboard/src/sdk/screen_params/android/java/com/google/cardboard/sdk/screenparams/ScreenParamsUtils.java

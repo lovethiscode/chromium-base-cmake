@@ -1,0 +1,7 @@
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/DataSharingInvitationDialogCoordinator.java
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/DataSharingInvitationDialogMediator.java
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/DataSharingNotificationManager.java
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/SharedImageTilesCoordinator.java
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/SharedImageTilesMediator.java
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/SharedImageTilesProperties.java
+../../chrome/browser/data_sharing/android/java/src/org/chromium/chrome/browser/data_sharing/SharedImageTilesViewBinder.java

@@ -1,0 +1,10 @@
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/BankAccountViewBinder.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsFopSelectorScreen.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsControllerBridge.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsCoordinator.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsMediator.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsProperties.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsView.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsViewBinder.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsPaymentMethodsViewBridge.java
+../../chrome/browser/facilitated_payments/ui/android/internal/java/src/org/chromium/chrome/browser/facilitated_payments/FacilitatedPaymentsProgressScreen.java

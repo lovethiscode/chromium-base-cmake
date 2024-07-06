@@ -1,0 +1,5 @@
+../../chrome/browser/touch_to_fill/password_manager/password_generation/android/internal/java/src/org/chromium/chrome/browser/touch_to_fill/password_generation/TouchToFillPasswordGenerationBridge.java
+../../chrome/browser/touch_to_fill/password_manager/password_generation/android/internal/java/src/org/chromium/chrome/browser/touch_to_fill/password_generation/TouchToFillPasswordGenerationCoordinator.java
+../../chrome/browser/touch_to_fill/password_manager/password_generation/android/internal/java/src/org/chromium/chrome/browser/touch_to_fill/password_generation/TouchToFillPasswordGenerationProperties.java
+../../chrome/browser/touch_to_fill/password_manager/password_generation/android/internal/java/src/org/chromium/chrome/browser/touch_to_fill/password_generation/TouchToFillPasswordGenerationView.java
+../../chrome/browser/touch_to_fill/password_manager/password_generation/android/internal/java/src/org/chromium/chrome/browser/touch_to_fill/password_generation/TouchToFillPasswordGenerationViewBinder.java

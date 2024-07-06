@@ -1,0 +1,12 @@
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/CrashFileManager.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/CrashReportMimeWriter.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/MinidumpUploadCallable.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/MinidumpUploadJob.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/MinidumpUploadJobImpl.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/MinidumpUploadJobService.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/MinidumpUploader.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/MinidumpUploaderDelegate.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/util/CrashReportingPermissionManager.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/util/HttpURLConnectionFactory.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/util/HttpURLConnectionFactoryImpl.java
+../../components/minidump_uploader/android/java/src/org/chromium/components/minidump_uploader/util/NetworkPermissionUtil.java

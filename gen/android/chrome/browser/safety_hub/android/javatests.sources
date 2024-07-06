@@ -1,0 +1,3 @@
+../../chrome/browser/safety_hub/android/javatests/src/org/chromium/chrome/browser/safety_hub/FakeNotificationPermissionReviewBridge.java
+../../chrome/browser/safety_hub/android/javatests/src/org/chromium/chrome/browser/safety_hub/FakeUnusedSitePermissionsBridge.java
+../../chrome/browser/safety_hub/android/javatests/src/org/chromium/chrome/browser/safety_hub/SafetyHubTest.java

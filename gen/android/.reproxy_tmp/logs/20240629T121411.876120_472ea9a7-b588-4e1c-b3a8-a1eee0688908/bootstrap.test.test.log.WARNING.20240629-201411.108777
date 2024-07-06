@@ -1,0 +1,6 @@
+Log file created at: 2024/06/29 20:14:11
+Running on machine: test
+Binary: Built with gc go1.20.7 X:nocoverageredesign for linux/amd64
+Previous log: <none>
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0629 20:14:11.917147  108777 auth.go:512] Failed to use cached credentials: open /home/test/chrom/.reproxy_cache/4429b4909e4423e274e7c2b71dccef82/reproxy.creds: no such file or directory

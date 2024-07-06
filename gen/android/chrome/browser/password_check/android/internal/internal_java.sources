@@ -1,0 +1,12 @@
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckBridge.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckCoordinator.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckDeletionDialogFragment.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckImpl.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckMediator.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckProperties.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckViewBinder.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckViewDialogFragment.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/PasswordCheckViewHolder.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/helper/PasswordCheckChangePasswordHelper.java
+../../chrome/browser/password_check/android/internal/java/src/org/chromium/chrome/browser/password_check/helper/PasswordCheckIconHelper.java

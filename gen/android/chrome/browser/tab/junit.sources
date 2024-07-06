@@ -1,0 +1,6 @@
+../../chrome/browser/tab/java/src/org/chromium/chrome/browser/tab/CurrentTabObserverTest.java
+../../chrome/browser/tab/java/src/org/chromium/chrome/browser/tab/TabAssociatedAppTest.java
+../../chrome/browser/tab/java/src/org/chromium/chrome/browser/tab/TabIdManagerTest.java
+../../chrome/browser/tab/java/src/org/chromium/chrome/browser/tab/TabStateAttributesTest.java
+../../chrome/browser/tab/java/src/org/chromium/chrome/browser/tab/TabSupplierObserverTest.java
+../../chrome/browser/tab/java/src/org/chromium/chrome/browser/tab/state/PriceDropMetricsLoggerTest.java

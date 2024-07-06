@@ -1,0 +1,4 @@
+../../chrome/browser/ui/android/google_bottom_bar/java/src/org/chromium/chrome/browser/ui/google_bottom_bar/BottomBarConfigCreatorTest.java
+../../chrome/browser/ui/android/google_bottom_bar/java/src/org/chromium/chrome/browser/ui/google_bottom_bar/GoogleBottomBarActionsHandlerTest.java
+../../chrome/browser/ui/android/google_bottom_bar/java/src/org/chromium/chrome/browser/ui/google_bottom_bar/GoogleBottomBarCoordinatorTest.java
+../../chrome/browser/ui/android/google_bottom_bar/java/src/org/chromium/chrome/browser/ui/google_bottom_bar/GoogleBottomBarViewCreatorTest.java

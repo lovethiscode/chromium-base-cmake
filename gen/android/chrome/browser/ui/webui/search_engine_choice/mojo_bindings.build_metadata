@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/search_engine_choice/search_engine_choice.mojom"
+  ]
+}

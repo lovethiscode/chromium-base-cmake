@@ -1,0 +1,8 @@
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/ClassificationResult.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/Constants.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/InputContext.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/PredictionOptions.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/ProcessedValue.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/SegmentSelectionResult.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/SegmentationPlatformConversionBridge.java
+../../components/segmentation_platform/public/android/java/src/org/chromium/components/segmentation_platform/SegmentationPlatformService.java

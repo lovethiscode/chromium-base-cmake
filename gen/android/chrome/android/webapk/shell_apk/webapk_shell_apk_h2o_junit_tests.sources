@@ -1,0 +1,5 @@
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/CustomAndroidOsShadowAsyncTask.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/TestBrowserInstaller.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/h2o/LaunchTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/h2o/SplashActivityTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/h2o/SplashUtilsUnitTest.java

@@ -1,0 +1,6 @@
+../../components/browser_ui/bottomsheet/android/java/src/org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.java
+../../components/browser_ui/bottomsheet/android/java/src/org/chromium/components/browser_ui/bottomsheet/BottomSheetController.java
+../../components/browser_ui/bottomsheet/android/java/src/org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerProvider.java
+../../components/browser_ui/bottomsheet/android/java/src/org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.java
+../../components/browser_ui/bottomsheet/android/java/src/org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.java
+../../components/browser_ui/bottomsheet/android/java/src/org/chromium/components/browser_ui/bottomsheet/ExpandedSheetHelper.java

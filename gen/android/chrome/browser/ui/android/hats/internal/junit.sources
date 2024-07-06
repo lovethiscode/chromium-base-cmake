@@ -1,0 +1,4 @@
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyClientBridgeUnitTest.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyClientUnitTest.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyThrottlerUnitTest.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyUiDelegateBridgeUnitTest.java

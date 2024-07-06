@@ -1,0 +1,8 @@
+../../components/browser_ui/modaldialog/android/java/res/layout/modal_dialog_container.xml
+../../components/browser_ui/modaldialog/android/java/res/layout/modal_dialog_title.xml
+../../components/browser_ui/modaldialog/android/java/res/layout/modal_dialog_view.xml
+../../components/browser_ui/modaldialog/android/java/res/values-large/themes.xml
+../../components/browser_ui/modaldialog/android/java/res/values/dimens.xml
+../../components/browser_ui/modaldialog/android/java/res/values/ids.xml
+../../components/browser_ui/modaldialog/android/java/res/values/styles.xml
+../../components/browser_ui/modaldialog/android/java/res/values/themes.xml

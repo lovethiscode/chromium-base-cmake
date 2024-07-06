@@ -1,0 +1,6 @@
+../../components/autofill/android/javatests/src/org/chromium/components/autofill/payments/AutofillSaveCardUiInfoTest.java
+../../components/autofill/android/javatests/src/org/chromium/components/autofill/payments/AutofillSaveIbanUiInfoTest.java
+../../components/autofill/android/javatests/src/org/chromium/components/autofill/payments/BankAccountTest.java
+../../components/autofill/android/javatests/src/org/chromium/components/autofill/payments/CardDetailTest.java
+../../components/autofill/android/javatests/src/org/chromium/components/autofill/payments/LegalMessageLineTest.java
+../../components/autofill/android/javatests/src/org/chromium/components/autofill/payments/PaymentInstrumentTest.java

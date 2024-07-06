@@ -1,0 +1,5 @@
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/DataSharingConversionBridge.java
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/DataSharingNetworkLoaderImpl.java
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/DataSharingSDKDelegateBridge.java
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/DataSharingServiceImpl.java
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/ObserverBridge.java

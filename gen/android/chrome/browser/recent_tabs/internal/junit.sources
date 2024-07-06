@@ -1,0 +1,9 @@
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsCoordinatorUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsMediatorUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsPromoSheetContentUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/ForeignSessionItemPropertiesUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/ForeignSessionItemViewBinderUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsDetailScreenViewBinderUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsPromoScreenViewBinderUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/TabItemPropertiesUnitTest.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/TabItemViewBinderUnitTest.java

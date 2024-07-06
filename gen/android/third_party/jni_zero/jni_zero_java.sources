@@ -1,0 +1,10 @@
+../../third_party/jni_zero/java/src/org/jni_zero/AccessedByNative.java
+../../third_party/jni_zero/java/src/org/jni_zero/CalledByNative.java
+../../third_party/jni_zero/java/src/org/jni_zero/CalledByNativeForTesting.java
+../../third_party/jni_zero/java/src/org/jni_zero/CalledByNativeUnchecked.java
+../../third_party/jni_zero/java/src/org/jni_zero/JNINamespace.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniInit.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniType.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniUtil.java
+../../third_party/jni_zero/java/src/org/jni_zero/NativeClassQualifiedName.java
+../../third_party/jni_zero/java/src/org/jni_zero/NativeMethods.java

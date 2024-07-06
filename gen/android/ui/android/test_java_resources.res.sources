@@ -1,0 +1,8 @@
+../../ui/android/test/java/res/layout/text_view_with_leading_bad_text_appearance.xml
+../../ui/android/test/java/res/layout/text_view_with_leading_direct.xml
+../../ui/android/test/java/res/layout/text_view_with_leading_no_leading.xml
+../../ui/android/test/java/res/layout/text_view_with_leading_style.xml
+../../ui/android/test/java/res/layout/text_view_with_leading_style_into_text_appearance.xml
+../../ui/android/test/java/res/layout/text_view_with_leading_text_appearance.xml
+../../ui/android/test/java/res/values/attrs.xml
+../../ui/android/test/java/res/values/styles.xml

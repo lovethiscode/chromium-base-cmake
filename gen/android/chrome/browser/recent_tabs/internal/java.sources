@@ -1,0 +1,17 @@
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsControllerFactory.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsControllerImpl.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsCoordinator.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsMediator.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsMetricsHelper.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsPromoSheetContent.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/RestoreTabsProperties.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/ForeignSessionItemProperties.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/ForeignSessionItemViewBinder.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsDetailItemDecoration.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsDetailScreenCoordinator.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsDetailScreenViewBinder.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsPromoScreenCoordinator.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsPromoScreenViewBinder.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/RestoreTabsViewBinderHelper.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/TabItemProperties.java
+../../chrome/browser/recent_tabs/internal/android/java/src/org/chromium/chrome/browser/recent_tabs/ui/TabItemViewBinder.java

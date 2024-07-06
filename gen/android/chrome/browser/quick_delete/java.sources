@@ -1,0 +1,10 @@
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteAnimationGradientDrawable.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteBridge.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteController.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteDelegate.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteDialogDelegate.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteMediator.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteMetricsDelegate.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteProperties.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteTabsFilter.java
+../../chrome/browser/quick_delete/android/java/src/org/chromium/chrome/browser/quick_delete/QuickDeleteViewBinder.java

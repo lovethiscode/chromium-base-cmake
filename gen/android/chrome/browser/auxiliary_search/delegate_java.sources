@@ -1,0 +1,3 @@
+../../chrome/browser/auxiliary_search/java/src/org/chromium/chrome/browser/auxiliary_search/AuxiliarySearchController.java
+../../chrome/browser/auxiliary_search/java/src/org/chromium/chrome/browser/auxiliary_search/AuxiliarySearchHooks.java
+../../chrome/browser/auxiliary_search/java/src/org/chromium/chrome/browser/auxiliary_search/AuxiliarySearchHooksImpl.java

@@ -1,0 +1,11 @@
+../../chrome/android/features/cablev2_authenticator/java/res/drawable-night/ble.xml
+../../chrome/android/features/cablev2_authenticator/java/res/drawable-night/cable_qr_code.xml
+../../chrome/android/features/cablev2_authenticator/java/res/drawable/ble.xml
+../../chrome/android/features/cablev2_authenticator/java/res/drawable/cable_qr_code.xml
+../../chrome/android/features/cablev2_authenticator/java/res/drawable/usb_conn_disconnect.xml
+../../chrome/android/features/cablev2_authenticator/java/res/layout-sw600dp/cablev2_ble_enable.xml
+../../chrome/android/features/cablev2_authenticator/java/res/layout-sw600dp/cablev2_qr.xml
+../../chrome/android/features/cablev2_authenticator/java/res/layout/cablev2_ble_enable.xml
+../../chrome/android/features/cablev2_authenticator/java/res/layout/cablev2_qr.xml
+../../chrome/android/features/cablev2_authenticator/java/res/layout/cablev2_usb_attached.xml
+../../chrome/android/features/cablev2_authenticator/java/res/values/attrs.xml

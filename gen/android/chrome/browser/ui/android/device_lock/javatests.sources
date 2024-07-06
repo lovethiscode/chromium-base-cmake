@@ -1,0 +1,5 @@
+../../chrome/browser/ui/android/device_lock/javatests/src/org/chromium/chrome/browser/ui/device_lock/DeviceLockCoordinatorTest.java
+../../chrome/browser/ui/android/device_lock/javatests/src/org/chromium/chrome/browser/ui/device_lock/DeviceLockViewBinderTest.java
+../../chrome/browser/ui/android/device_lock/javatests/src/org/chromium/chrome/browser/ui/device_lock/MissingDeviceLockCoordinatorTest.java
+../../chrome/browser/ui/android/device_lock/javatests/src/org/chromium/chrome/browser/ui/device_lock/MissingDeviceLockLauncherTest.java
+../../chrome/browser/ui/android/device_lock/javatests/src/org/chromium/chrome/browser/ui/device_lock/MissingDeviceLockViewBinderTest.java

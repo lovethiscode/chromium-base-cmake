@@ -1,0 +1,23 @@
+[
+  {
+    "traits_headers": [
+      "content/browser/webauth/virtual_authenticator_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//device/fido"
+    ],
+    "traits_sources": [
+      "//content/browser/webauth/virtual_authenticator_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::device::ProtocolVersion",
+        "mojom": "blink.test.mojom.ClientToAuthenticatorProtocol"
+      },
+      {
+        "cpp": "::device::Ctap2Version",
+        "mojom": "blink.test.mojom.Ctap2Version"
+      }
+    ]
+  }
+]

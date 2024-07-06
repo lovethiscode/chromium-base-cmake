@@ -1,0 +1,7 @@
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleBuilder.java
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleCoordinator.java
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleMediator.java
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleProperties.java
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleView.java
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleViewBinder.java
+../../chrome/browser/commerce/price_change/android/java/src/org/chromium/chrome/browser/price_change/PriceChangeModuleViewUtils.java

@@ -1,0 +1,9 @@
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/EventDetails.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/LocalTabGroupId.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/SavedTabGroup.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/SavedTabGroupTab.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/TabGroupMetadataPersistentStore.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/TabGroupStoreDelegate.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/TabGroupSyncConversionsBridge.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/TabGroupSyncService.java
+../../components/saved_tab_groups/android/java/src/org/chromium/components/tab_group_sync/TabGroupSyncServiceImpl.java

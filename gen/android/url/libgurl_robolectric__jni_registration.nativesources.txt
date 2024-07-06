@@ -1,0 +1,17 @@
+../../third_party/jni_zero/java/src/org/jni_zero/JniInit.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniUtil.java
+../../base/android/java/src/org/chromium/base/Callback.java
+../../base/android/java/src/org/chromium/base/CommandLine.java
+../../base/android/java/src/org/chromium/base/JNIUtils.java
+../../base/android/java/src/org/chromium/base/JavaExceptionReporter.java
+../../base/android/java/src/org/chromium/base/JniAndroid.java
+../../base/android/java/src/org/chromium/base/Token.java
+../../base/android/java/src/org/chromium/base/TokenBase.java
+../../base/android/java/src/org/chromium/base/TraceEvent.java
+../../base/android/java/src/org/chromium/base/UnguessableToken.java
+../../base/android/java/src/org/chromium/base/library_loader/LibraryLoader.java
+../../base/android/java/src/org/chromium/base/metrics/NativeUmaRecorder.java
+../../url/android/java/src/org/chromium/url/IDNStringUtil.java
+../../url/android/java/src/org/chromium/url/GURL.java
+../../url/android/java/src/org/chromium/url/Origin.java
+../../url/android/java/src/org/chromium/url/Parsed.java

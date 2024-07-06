@@ -1,0 +1,4 @@
+../../chrome/browser/safety_hub/android/junit/src/org/chromium/chrome/browser/safety_hub/SafetyHubFetchServiceTest.java
+../../chrome/browser/safety_hub/android/junit/src/org/chromium/chrome/browser/safety_hub/SafetyHubFetchTaskTest.java
+../../chrome/browser/safety_hub/android/junit/src/org/chromium/chrome/browser/safety_hub/SafetyHubModuleDelegateTest.java
+../../chrome/browser/safety_hub/android/junit/src/org/chromium/chrome/browser/safety_hub/SafetyHubModuleViewBinderTest.java

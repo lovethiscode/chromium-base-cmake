@@ -1,0 +1,7 @@
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabModuleBuilder.java
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabSwitcherCoordinator.java
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabSwitcherMediator.java
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabSwitcherOnNtpMediator.java
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabView.java
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabViewBinder.java
+../../chrome/browser/single_tab/android/java/src/org/chromium/chrome/browser/single_tab/SingleTabViewProperties.java

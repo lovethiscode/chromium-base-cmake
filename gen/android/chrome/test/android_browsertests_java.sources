@@ -1,0 +1,3 @@
+../../chrome/test/android/browsertests_apk/src/org/chromium/android_browsertests_apk/ChromeBrowserTestsActivity.java
+../../chrome/test/android/browsertests_apk/src/org/chromium/android_browsertests_apk/ChromeBrowserTestsApplication.java
+../../chrome/test/android/browsertests_apk/src/org/chromium/android_browsertests_apk/ChromeBrowserTestsInstrumentationTestRunner.java

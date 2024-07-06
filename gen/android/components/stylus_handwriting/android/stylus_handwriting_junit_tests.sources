@@ -1,0 +1,5 @@
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/AndroidStylusWritingHandlerTest.java
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/DirectWritingServiceBinderTest.java
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/DirectWritingServiceCallbackTest.java
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/DirectWritingTriggerTest.java
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/StylusWritingControllerTest.java

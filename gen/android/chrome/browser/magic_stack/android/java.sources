@@ -1,0 +1,14 @@
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/CirclePagerIndicatorDecoration.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesConfigManager.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesConfigSettings.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesContextMenuManager.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesCoordinator.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesMediator.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesMetricsUtils.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/HomeModulesRecyclerView.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/ModuleConfigChecker.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/ModuleDelegate.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/ModuleDelegateHost.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/ModuleProvider.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/ModuleProviderBuilder.java
+../../chrome/browser/magic_stack/android/java/src/org/chromium/chrome/browser/magic_stack/ModuleRegistry.java

@@ -1,0 +1,9 @@
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/CirclePagerIndicatorDecorationUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesConfigManagerUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesConfigSettingsUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesContextMenuManagerUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesCoordinatorUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesMediatorUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesMetricsUtilsUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/HomeModulesRecyclerViewUnitTest.java
+../../chrome/browser/magic_stack/android/junit/src/org/chromium/chrome/browser/magic_stack/ModuleRegistryUnitTest.java

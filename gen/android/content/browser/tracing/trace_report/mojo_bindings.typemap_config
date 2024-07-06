@@ -1,0 +1,21 @@
+[
+  {
+    "traits_headers": [
+      "content/browser/tracing/trace_report/trace_report_mojom_traits.h",
+      "content/browser/tracing/trace_report/trace_report_database.h"
+    ],
+    "traits_sources": [
+      "//content/browser/tracing/trace_report/trace_report_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::content::ReportUploadState",
+        "mojom": "trace_report.mojom.ReportUploadState"
+      },
+      {
+        "cpp": "::content::SkipUploadReason",
+        "mojom": "trace_report.mojom.SkipUploadReason"
+      }
+    ]
+  }
+]

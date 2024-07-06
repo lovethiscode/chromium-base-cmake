@@ -1,0 +1,5 @@
+../../chrome/browser/lens/java/src/org/chromium/chrome/browser/lens/LensEntryPoint.java
+../../chrome/browser/lens/java/src/org/chromium/chrome/browser/lens/LensIntentParams.java
+../../chrome/browser/lens/java/src/org/chromium/chrome/browser/lens/LensMetrics.java
+../../chrome/browser/lens/java/src/org/chromium/chrome/browser/lens/LensQueryParams.java
+../../chrome/browser/lens/java/src/org/chromium/chrome/browser/lens/LensQueryResult.java

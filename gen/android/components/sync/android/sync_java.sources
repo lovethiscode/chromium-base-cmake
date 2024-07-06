@@ -1,0 +1,4 @@
+../../components/sync/android/java/src/org/chromium/components/sync/Passphrase.java
+../../components/sync/android/java/src/org/chromium/components/sync/SyncFeatureMap.java
+../../components/sync/android/java/src/org/chromium/components/sync/SyncService.java
+../../components/sync/android/java/src/org/chromium/components/sync/SyncServiceImpl.java

@@ -1,0 +1,4 @@
+../../chrome/browser/ui/android/layouts/java/src/org/chromium/chrome/browser/layouts/CompositorModelChangeProcessorUnitTest.java
+../../chrome/browser/ui/android/layouts/java/src/org/chromium/chrome/browser/layouts/FilterLayoutStateObserverTest.java
+../../chrome/browser/ui/android/layouts/java/src/org/chromium/chrome/browser/layouts/animation/CompositorAnimationHandlerTest.java
+../../chrome/browser/ui/android/layouts/java/src/org/chromium/chrome/browser/layouts/animation/CompositorAnimatorTest.java

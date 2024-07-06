@@ -1,0 +1,16 @@
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/AutomotiveUtils.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/AvatarGenerator.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/BitmapCache.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/BrowserControlsVisibilityDelegate.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/BrowserUiUtilsCachedFlags.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/ComposedBrowserControlsVisibilityDelegate.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/ConversionUtils.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/DimensionCompat.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/DownloadUtils.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/FirstDrawDetector.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/GlobalDiscardableReferencePool.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/ToolbarUtils.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/TraceEventVectorDrawableCompat.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/date/CalendarFactory.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/date/CalendarUtils.java
+../../components/browser_ui/util/android/java/src/org/chromium/components/browser_ui/util/date/StringUtils.java

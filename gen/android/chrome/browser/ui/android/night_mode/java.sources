@@ -1,0 +1,14 @@
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/AutoDarkFeedbackSource.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/GlobalNightModeStateController.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/GlobalNightModeStateProviderHolder.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/NightModeMetrics.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/NightModeStateProvider.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/NightModeUtils.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/PowerSavingModeMonitor.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/RemoteViewsWithNightModeInflater.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/SystemNightModeMonitor.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/ThemeType.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/WebContentsDarkModeController.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/WebContentsDarkModeMessageController.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/settings/RadioButtonGroupThemePreference.java
+../../chrome/browser/ui/android/night_mode/java/src/org/chromium/chrome/browser/night_mode/settings/ThemeSettingsFragment.java

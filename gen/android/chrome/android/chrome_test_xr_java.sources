@@ -1,0 +1,10 @@
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrTestFramework.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/XrTestFramework.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/ChromeTabbedActivityXrTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/CustomTabActivityXrTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/WebappActivityXrTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/XrActivityRestriction.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/XrActivityRestrictionRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/XrTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/util/PermissionUtils.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/util/XrTestRuleUtils.java

@@ -1,0 +1,80 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.myapp'
+    compileSdk 34
+    buildFeatures {
+        aidl true
+    }
+    defaultConfig {
+        applicationId "com.example.myapp"
+        minSdk 29
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled false
+        ndkVersion "26.1.10909125"
+        ndk {
+            //abiFilters "arm64-v8a"
+            abiFilters "x86_64"
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++20'
+                arguments '-DPOSIX=ON -DEVENT__DISABLE_OPENSSL=ON -DEVENT__DISABLE_SAMPLES=ON -DEVENT__DISABLE_BENCHMARK=ON -DEVENT__DISABLE_TESTS=ON -Denable_message_pump_epoll=ON -DEVENT__DISABLE_THREAD_SUPPORT=ON'
+            }
+        }
+    }
+
+
+    sourceSets {
+        main {
+            java.srcDirs = ['../../../base/android/java/src', '../../../third_party/jni_zero/java/src',
+                            'src/main/java',
+            '../../../base/version_info/android/java/src',
+            '../../../gen/android/base/version_info/android/java',
+            '../../../gen/android/base/android/library_loader/java',
+            '../../../patch/java']
+            aidl.srcDirs += ['../../../base/android/java/src']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.29.2'
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+
+    compileOnly 'org.chromium.net:cronet-embedded:119.6045.31'
+    compileOnly 'com.google.firebase:firebase-crashlytics-buildtools:3.0.2'
+    compileOnly "com.google.errorprone:error_prone_annotations:2.10.0"
+    compileOnly 'com.google.guava:guava:31.0.1-android'
+}

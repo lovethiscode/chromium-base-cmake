@@ -1,0 +1,3 @@
+../../components/ip_protection/android_auth_client_lib/testing/mock_service/java/src/org/chromium/components/ip_protection_auth/mock_service/ConstantResponseService.java
+../../components/ip_protection/android_auth_client_lib/testing/mock_service/java/src/org/chromium/components/ip_protection_auth/mock_service/IpProtectionAuthServiceMock.java
+../../components/ip_protection/android_auth_client_lib/testing/mock_service/java/src/org/chromium/components/ip_protection_auth/mock_service/NullBindingService.java

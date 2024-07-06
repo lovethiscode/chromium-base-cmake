@@ -1,0 +1,4 @@
+../../components/language/android/java/src/org/chromium/components/language/LanguageProfileDelegate.java
+../../components/language/android/java/src/org/chromium/components/language/LanguageProfileDelegateImpl.java
+../../components/language/android/java/src/org/chromium/components/language/LocaleManagerDelegate.java
+../../components/language/android/java/src/org/chromium/components/language/LocaleManagerDelegateImpl.java

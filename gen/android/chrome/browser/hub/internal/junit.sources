@@ -1,0 +1,13 @@
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/FadeHubLayoutAnimationFactoryImplUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubCoordinatorUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubLayoutAnimationRunnerImplUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubManagerImplUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubPaneHostMediatorUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubPaneHostViewUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubToolbarMediatorUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubToolbarViewUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/PaneBackStackHandlerUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/PaneManagerImplUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/PaneTransitionHelperUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/ShrinkExpandHubLayoutAnimatorProviderUnitTest.java
+../../chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/TranslateHubLayoutAnimationFactoryImplUnitTest.java

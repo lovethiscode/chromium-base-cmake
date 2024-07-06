@@ -1,0 +1,3 @@
+../../components/search_engines/android/java/src/org/chromium/components/search_engines/FakeTemplateUrl.java
+../../components/search_engines/android/java/src/org/chromium/components/search_engines/TemplateUrlTestHelpers.java
+../../components/search_engines/android/java/src/org/chromium/components/search_engines/test/util/SearchEngineChoiceServiceTestUtil.java

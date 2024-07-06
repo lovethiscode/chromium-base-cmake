@@ -1,0 +1,7 @@
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/ParentAuthDelegateProvider.java
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/WebsiteParentApproval.java
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalCoordinator.java
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalMediator.java
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalProperties.java
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalSheetContent.java
+../../chrome/browser/supervised_user/android/java/src/org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalViewBinder.java

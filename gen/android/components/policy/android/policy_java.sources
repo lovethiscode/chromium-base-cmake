@@ -1,0 +1,10 @@
+../../components/policy/android/java/src/org/chromium/components/policy/CombinedPolicyProvider.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyCacheUpdater.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyConverter.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyMap.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyService.java
+../../components/policy/android/java/src/org/chromium/components/policy/AbstractAppRestrictionsProvider.java
+../../components/policy/android/java/src/org/chromium/components/policy/AppRestrictionsProvider.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyCache.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyCacheProvider.java
+../../components/policy/android/java/src/org/chromium/components/policy/PolicyProvider.java

@@ -1,0 +1,5 @@
+../../chrome/browser/android/metrics/java/src/org/chromium/chrome/browser/metrics/AppUpdateInfo.java
+../../chrome/browser/android/metrics/java/src/org/chromium/chrome/browser/metrics/MainIntentBehaviorMetrics.java
+../../chrome/browser/android/metrics/java/src/org/chromium/chrome/browser/metrics/PackageMetrics.java
+../../chrome/browser/android/metrics/java/src/org/chromium/chrome/browser/metrics/AndroidSessionDurationsServiceState.java
+../../chrome/browser/android/metrics/java/src/org/chromium/chrome/browser/metrics/AppUpdateInfoUtils.java

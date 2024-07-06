@@ -1,0 +1,11 @@
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleBridge.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleCoordinator.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleMediator.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleProperties.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleUtils.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleView.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleViewBinder.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionTileBuilder.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionTileContainerView.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionTileView.java
+../../chrome/browser/search_resumption/java/src/org/chromium/chrome/browser/search_resumption/SearchResumptionUserData.java

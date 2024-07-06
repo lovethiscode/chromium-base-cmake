@@ -1,0 +1,3 @@
+../../components/download/internal/common/android/java/src/org/chromium/components/download/DownloadCollectionBridge.java
+../../components/download/internal/common/android/java/src/org/chromium/components/download/DownloadDelegate.java
+../../components/download/internal/common/android/java/src/org/chromium/components/download/InMemoryDownloadFile.java

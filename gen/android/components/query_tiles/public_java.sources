@@ -1,0 +1,5 @@
+../../components/query_tiles/android/java/src/org/chromium/components/query_tiles/QueryTileConstants.java
+../../components/query_tiles/android/java/src/org/chromium/components/query_tiles/TileProvider.java
+../../components/query_tiles/android/java/src/org/chromium/components/query_tiles/TileUmaLogger.java
+../../components/query_tiles/android/java/src/org/chromium/components/query_tiles/bridges/TileConversionBridge.java
+../../components/query_tiles/android/java/src/org/chromium/components/query_tiles/bridges/TileProviderBridge.java

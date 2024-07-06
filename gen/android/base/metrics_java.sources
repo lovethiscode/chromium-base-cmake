@@ -1,0 +1,11 @@
+../../base/android/java/src/org/chromium/base/metrics/CachingUmaRecorder.java
+../../base/android/java/src/org/chromium/base/metrics/HistogramBucket.java
+../../base/android/java/src/org/chromium/base/metrics/NativeUmaRecorder.java
+../../base/android/java/src/org/chromium/base/metrics/NoopUmaRecorder.java
+../../base/android/java/src/org/chromium/base/metrics/RecordHistogram.java
+../../base/android/java/src/org/chromium/base/metrics/RecordUserAction.java
+../../base/android/java/src/org/chromium/base/metrics/ScopedSysTraceEvent.java
+../../base/android/java/src/org/chromium/base/metrics/StatisticsRecorderAndroid.java
+../../base/android/java/src/org/chromium/base/metrics/TimingMetric.java
+../../base/android/java/src/org/chromium/base/metrics/UmaRecorder.java
+../../base/android/java/src/org/chromium/base/metrics/UmaRecorderHolder.java

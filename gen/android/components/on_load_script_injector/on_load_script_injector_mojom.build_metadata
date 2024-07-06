@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../components/on_load_script_injector/on_load_script_injector.mojom"
+  ]
+}

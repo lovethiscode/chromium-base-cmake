@@ -1,0 +1,9 @@
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/InvalidationAwareThumbnailProvider.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/RecyclerViewPosition.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/TabContentManager.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/TabListFaviconProvider.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/TabSwitcher.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/TabSwitcherCustomViewManager.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/TabThumbnailView.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/TabUiThemeUtils.java
+../../chrome/browser/tab_ui/android/java/src/org/chromium/chrome/browser/tab_ui/ThumbnailProvider.java

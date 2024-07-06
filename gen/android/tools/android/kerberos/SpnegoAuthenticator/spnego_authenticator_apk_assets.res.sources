@@ -1,0 +1,8 @@
+../../tools/android/kerberos/SpnegoAuthenticator/res/layout/activity_account_authenticator.xml
+../../tools/android/kerberos/SpnegoAuthenticator/res/mipmap-hdpi/ic_launcher.png
+../../tools/android/kerberos/SpnegoAuthenticator/res/mipmap-mdpi/ic_launcher.png
+../../tools/android/kerberos/SpnegoAuthenticator/res/mipmap-xhdpi/ic_launcher.png
+../../tools/android/kerberos/SpnegoAuthenticator/res/mipmap-xxhdpi/ic_launcher.png
+../../tools/android/kerberos/SpnegoAuthenticator/res/values/strings.xml
+../../tools/android/kerberos/SpnegoAuthenticator/res/xml/spnego_account_preferences.xml
+../../tools/android/kerberos/SpnegoAuthenticator/res/xml/spnego_authenticator.xml

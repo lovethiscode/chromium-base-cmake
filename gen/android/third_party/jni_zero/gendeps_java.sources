@@ -1,0 +1,3 @@
+../../third_party/jni_zero/java/src/org/jni_zero/CheckDiscard.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniStaticTestMocker.java
+../../third_party/jni_zero/java/src/org/jni_zero/NativeLibraryLoadedStatus.java

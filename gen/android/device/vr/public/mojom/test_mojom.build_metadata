@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "xr_common.build_metadata",
+    "../../../../ui/gfx/geometry/mojom/mojom.build_metadata",
+    "../../../../ui/gfx/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../device/vr/public/mojom/browser_test_interfaces.mojom"
+  ]
+}

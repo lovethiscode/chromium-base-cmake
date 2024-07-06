@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "../../../../../services/device/public/mojom/usb.build_metadata",
+    "../../../../../services/device/public/mojom/usb_test.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/usb_internals/usb_internals.mojom"
+  ]
+}

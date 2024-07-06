@@ -1,0 +1,7 @@
+../../android_webview/javatests/res/raw/add_two_numbers.wasm
+../../android_webview/test/shell/res/layout/testshell_activity.xml
+../../android_webview/test/shell/res/raw/resource_file.html
+../../android_webview/test/shell/res/raw/resource_icon.png
+../../android_webview/test/shell/res/values/config.xml
+../../android_webview/test/shell/res/values/strings.xml
+../../android_webview/test/shell/res/xml/provider_paths.xml

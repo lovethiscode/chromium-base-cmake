@@ -1,0 +1,2 @@
+../../chrome/test/android/javatests/src/org/chromium/chrome/test/pagecontroller/rules/ChromeUiApplicationTestRule.java
+../../chrome/test/android/javatests/src/org/chromium/chrome/test/pagecontroller/rules/ChromeUiAutomatorTestRule.java

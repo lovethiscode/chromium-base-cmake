@@ -1,0 +1,8 @@
+../../chrome/android/javatests/src/org/chromium/chrome/browser/FederatedIdentityTestUtils.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/PwaRestoreBottomSheetTestUtils.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/customtabs/CustomTabActivityTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/customtabs/CustomTabsTestUtils.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/modaldialog/ChromeModalDialogTestUtils.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/payments/PaymentRequestTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/webapps/TestFetchStorageCallback.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/webapps/WebappActivityTestRule.java

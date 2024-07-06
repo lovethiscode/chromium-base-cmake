@@ -1,0 +1,5 @@
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/BottomSheetToolbarViewBinderTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetCoordinatorTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventLoadCallbackHelper.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorageTest.java

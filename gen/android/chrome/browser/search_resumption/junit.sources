@@ -1,0 +1,4 @@
+../../chrome/browser/search_resumption/junit/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleMediatorUnitTest.java
+../../chrome/browser/search_resumption/junit/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleUtilsUnitTest.java
+../../chrome/browser/search_resumption/junit/src/org/chromium/chrome/browser/search_resumption/SearchResumptionModuleViewUnitTest.java
+../../chrome/browser/search_resumption/junit/src/org/chromium/chrome/browser/search_resumption/SearchResumptionTileBuilderUnitTest.java

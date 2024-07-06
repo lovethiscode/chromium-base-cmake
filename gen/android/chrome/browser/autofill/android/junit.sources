@@ -1,0 +1,4 @@
+../../chrome/browser/autofill/android/junit/src/org/chromium/chrome/browser/autofill/editors/AddressEditorTest.java
+../../chrome/browser/autofill/android/junit/src/org/chromium/chrome/browser/autofill/editors/DropdownFieldViewUnitTest.java
+../../chrome/browser/autofill/android/junit/src/org/chromium/chrome/browser/autofill/editors/TextFieldViewUnitTest.java
+../../chrome/browser/autofill/android/junit/src/org/chromium/chrome/browser/autofill/options/AutofillOptionsTest.java

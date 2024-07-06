@@ -1,0 +1,12 @@
+{
+  "deps": [
+    "../../../mojo/public/mojom/base/base.build_metadata",
+    "../../gfx/geometry/mojom/mojom.build_metadata",
+    "../../gfx/mojom/mojom.build_metadata",
+    "../../gfx/range/mojom/mojom.build_metadata",
+    "../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../ui/accessibility/mojom/ax_assistant_structure.mojom"
+  ]
+}

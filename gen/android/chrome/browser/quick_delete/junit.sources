@@ -1,0 +1,5 @@
+../../chrome/browser/quick_delete/android/junit/src/org/chromium/chrome/browser/quick_delete/QuickDeleteDialogDelegateUnitTest.java
+../../chrome/browser/quick_delete/android/junit/src/org/chromium/chrome/browser/quick_delete/QuickDeleteMediatorTest.java
+../../chrome/browser/quick_delete/android/junit/src/org/chromium/chrome/browser/quick_delete/QuickDeleteMetricsDelegateTest.java
+../../chrome/browser/quick_delete/android/junit/src/org/chromium/chrome/browser/quick_delete/QuickDeleteTabsFilterTest.java
+../../chrome/browser/quick_delete/android/junit/src/org/chromium/chrome/browser/quick_delete/QuickDeleteViewBinderTest.java

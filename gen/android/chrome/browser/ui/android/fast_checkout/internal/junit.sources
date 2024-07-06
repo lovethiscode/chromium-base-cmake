@@ -1,0 +1,4 @@
+../../chrome/browser/ui/android/fast_checkout/internal/junit/src/org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutDetailScreenViewTest.java
+../../chrome/browser/ui/android/fast_checkout/internal/junit/src/org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutHomeScreenViewTest.java
+../../chrome/browser/ui/android/fast_checkout/internal/junit/src/org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediatorTest.java
+../../chrome/browser/ui/android/fast_checkout/internal/junit/src/org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutSheetContentTest.java

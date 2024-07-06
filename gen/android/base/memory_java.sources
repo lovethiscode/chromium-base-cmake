@@ -1,0 +1,7 @@
+../../base/android/java/src/org/chromium/base/MemoryPressureListener.java
+../../base/android/java/src/org/chromium/base/memory/JavaHeapDumpGenerator.java
+../../base/android/java/src/org/chromium/base/memory/MemoryInfoBridge.java
+../../base/android/java/src/org/chromium/base/memory/MemoryPressureCallback.java
+../../base/android/java/src/org/chromium/base/memory/MemoryPressureMonitor.java
+../../base/android/java/src/org/chromium/base/memory/MemoryPressureUma.java
+../../base/android/java/src/org/chromium/base/memory/MemoryPurgeManager.java

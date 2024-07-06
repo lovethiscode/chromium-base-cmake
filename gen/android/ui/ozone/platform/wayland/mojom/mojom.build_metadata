@@ -1,0 +1,14 @@
+{
+  "deps": [
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../skia/public/mojom/mojom.build_metadata",
+    "../../../../gfx/geometry/mojom/mojom.build_metadata",
+    "../../../../gfx/mojom/mojom.build_metadata",
+    "../../../../gl/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../ui/ozone/platform/wayland/mojom/wayland_buffer_manager.mojom",
+    "../../../../../../../../ui/ozone/platform/wayland/mojom/wayland_overlay_config.mojom",
+    "../../../../../../../../ui/ozone/platform/wayland/mojom/wayland_presentation_info.mojom"
+  ]
+}

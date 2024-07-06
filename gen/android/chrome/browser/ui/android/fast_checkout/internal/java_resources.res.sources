@@ -1,0 +1,12 @@
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/anim/fast_checkout_view_flipper_fade_in.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/anim/fast_checkout_view_flipper_fade_out.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/drawable/fast_checkout_background_bottom.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/drawable/fast_checkout_background_middle.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/drawable/fast_checkout_background_top.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/layout/fast_checkout_autofill_profile_item.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/layout/fast_checkout_bottom_sheet.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/layout/fast_checkout_credit_card_item.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/layout/fast_checkout_detail_screen_sheet.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/layout/fast_checkout_footer_item.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/layout/fast_checkout_home_screen_sheet.xml
+../../chrome/browser/ui/android/fast_checkout/internal/java/res/values/dimens.xml

@@ -1,0 +1,4 @@
+../../device/bluetooth/public/mojom/gatt_characteristic_permissions.mojom
+../../device/bluetooth/public/mojom/gatt_characteristic_properties.mojom
+../../device/bluetooth/public/mojom/gatt_service_error_code.mojom
+../../device/bluetooth/public/mojom/uuid.mojom

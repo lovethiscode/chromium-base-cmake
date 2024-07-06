@@ -1,0 +1,3 @@
+../../device/vr/public/mojom/openxr_interaction_profile_type.mojom
+../../device/vr/public/mojom/xr_device.mojom
+../../device/vr/public/mojom/xr_session.mojom

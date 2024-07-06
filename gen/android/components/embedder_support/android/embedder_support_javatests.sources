@@ -1,0 +1,3 @@
+../../components/embedder_support/android/javatests/src/org/chromium/components/embedder_support/delegate/ColorPickerDialogRenderTest.java
+../../components/embedder_support/android/javatests/src/org/chromium/components/embedder_support/util/UrlConstantsTest.java
+../../components/embedder_support/android/javatests/src/org/chromium/components/embedder_support/util/UrlUtilitiesUnitTest.java

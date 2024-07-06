@@ -1,0 +1,2 @@
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/ChromeFeatureListInstrumentationTest.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/FieldTrialsInstrumentationTest.java

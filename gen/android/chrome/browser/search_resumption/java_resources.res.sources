@@ -1,0 +1,6 @@
+../../chrome/browser/search_resumption/java/res/drawable/search_resumption_module_background_bottom.xml
+../../chrome/browser/search_resumption/java/res/drawable/search_resumption_module_background_middle.xml
+../../chrome/browser/search_resumption/java/res/drawable/search_resumption_module_background_top.xml
+../../chrome/browser/search_resumption/java/res/layout/search_resumption_module_layout.xml
+../../chrome/browser/search_resumption/java/res/layout/search_resumption_module_tile_layout.xml
+../../chrome/browser/search_resumption/java/res/values/dimens.xml

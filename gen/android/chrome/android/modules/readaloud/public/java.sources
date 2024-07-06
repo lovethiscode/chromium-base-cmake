@@ -1,0 +1,8 @@
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/Playback.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/PlaybackArgs.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/PlaybackListener.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/Player.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/ReadAloudPlaybackHooks.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/ReadAloudPlaybackHooksProvider.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/contentjs/Extractor.java
+../../chrome/android/modules/readaloud/public/java/src/org/chromium/chrome/modules/readaloud/contentjs/Highlighter.java

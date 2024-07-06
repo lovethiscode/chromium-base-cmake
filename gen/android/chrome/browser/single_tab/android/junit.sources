@@ -1,0 +1,3 @@
+../../chrome/browser/single_tab/android/junit/src/org/chromium/chrome/browser/single_tab/SingleTabModuleViewBinderUnitTest.java
+../../chrome/browser/single_tab/android/junit/src/org/chromium/chrome/browser/single_tab/SingleTabSwitcherMediatorUnitTest.java
+../../chrome/browser/single_tab/android/junit/src/org/chromium/chrome/browser/single_tab/SingleTabSwitcherOnNtpMediatorUnitTest.java

@@ -1,0 +1,13 @@
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorCoordinator.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorMediator.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorProfileView.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorProfileViewBinder.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorProperties.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorSnackbarController.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorTabMediator.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorTabSheetContent.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorToolbarView.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/CreatorToolbarViewBinder.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/NewTabCreator.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/SignInInterstitialInitiator.java
+../../chrome/browser/creator/android/java/src/org/chromium/chrome/browser/creator/WebContentsCreator.java

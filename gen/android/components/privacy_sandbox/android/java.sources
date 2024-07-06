@@ -1,0 +1,6 @@
+../../components/privacy_sandbox/android/java/src/org/chromium/components/privacy_sandbox/CustomTabIntentHelper.java
+../../components/privacy_sandbox/android/java/src/org/chromium/components/privacy_sandbox/FingerprintingProtectionSettingsFragment.java
+../../components/privacy_sandbox/android/java/src/org/chromium/components/privacy_sandbox/IpProtectionSettingsFragment.java
+../../components/privacy_sandbox/android/java/src/org/chromium/components/privacy_sandbox/TrackingProtectionDelegate.java
+../../components/privacy_sandbox/android/java/src/org/chromium/components/privacy_sandbox/TrackingProtectionSettings.java
+../../components/privacy_sandbox/android/java/src/org/chromium/components/privacy_sandbox/WebsiteExceptionRowPreference.java

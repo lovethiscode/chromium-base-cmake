@@ -1,0 +1,11 @@
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/CookiesFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/DoneFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/HistorySyncFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/MSBBFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/NavbarVisibilityDelegateTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/PreloadFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuideMetricsDelegateTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapterTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/SafeBrowsingFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/SearchSuggestionsFragmentTest.java
+../../chrome/browser/privacy_guide/android/junit/src/org/chromium/chrome/browser/privacy_guide/StepDisplayHandlerImplTest.java

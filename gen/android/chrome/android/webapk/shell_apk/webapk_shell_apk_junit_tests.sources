@@ -1,0 +1,7 @@
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/HostBrowserClassLoaderTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/HostBrowserLauncherParamsTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/HostBrowserUtilsTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/MainActivityTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/TestBrowserInstaller.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/WebApkServiceImplWrapperTest.java
+../../chrome/android/webapk/shell_apk/junit/src/org/chromium/webapk/shell_apk/WebApkUtilsTest.java

@@ -1,0 +1,6 @@
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyClientBridge.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyClientFactory.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyClientImpl.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyMetadata.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyThrottler.java
+../../chrome/browser/ui/android/hats/internal/java/src/org/chromium/chrome/browser/ui/hats/SurveyUiDelegateBridge.java

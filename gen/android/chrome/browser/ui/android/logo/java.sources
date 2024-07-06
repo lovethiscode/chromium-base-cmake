@@ -1,0 +1,8 @@
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/CachedTintedBitmap.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoBridge.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoCoordinator.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoMediator.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoProperties.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoUtils.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoView.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoViewBinder.java

@@ -1,0 +1,3 @@
+../../base/version_info/android/java/src/org/chromium/base/version_info/VersionConstantsBridge.java
+../../base/version_info/android/java/src/org/chromium/base/version_info/VersionInfo.java
+gen/base/version_info/android/java/org/chromium/base/version_info/VersionConstants.java

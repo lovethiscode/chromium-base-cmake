@@ -1,0 +1,60 @@
+ CMakeLists.txt       | 14 +++++++-------
+ event-config.h.cmake |  3 ---
+ 2 files changed, 7 insertions(+), 10 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 676727f1..c7523b73 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -41,7 +41,7 @@ string(TOLOWER "${CMAKE_BUILD_TYPE}" CMAKE_BUILD_TYPE_LOWER)
+ # what? why would you get id of other useful build types? - Ellzey
+ set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Limited configurations" FORCE)
+ 
+-set(EVENT__LIBRARY_TYPE DEFAULT CACHE STRING
++set(EVENT__LIBRARY_TYPE STATIC CACHE STRING
+     "Set library type to SHARED/STATIC/BOTH (default SHARED for MSVC, otherwise BOTH)")
+ 
+ project(libevent C)
+@@ -126,22 +126,22 @@ option(EVENT__DISABLE_MM_REPLACEMENT
+     "Define if libevent should not allow replacing the mm functions" OFF)
+ 
+ option(EVENT__DISABLE_THREAD_SUPPORT
+-    "Define if libevent should not be compiled with thread support" OFF)
++    "Define if libevent should not be compiled with thread support" ON)
+ 
+ option(EVENT__DISABLE_OPENSSL
+-    "Define if libevent should build without support for OpenSSL encryption" OFF)
++    "Define if libevent should build without support for OpenSSL encryption" ON)
+ 
+ option(EVENT__DISABLE_BENCHMARK
+-    "Defines if libevent should build without the benchmark executables" OFF)
++    "Defines if libevent should build without the benchmark executables" ON)
+ 
+ option(EVENT__DISABLE_TESTS
+-    "If tests should be compiled or not" OFF)
++    "If tests should be compiled or not" ON)
+ 
+ option(EVENT__DISABLE_REGRESS
+-    "Disable the regress tests" OFF)
++    "Disable the regress tests" ON)
+ 
+ option(EVENT__DISABLE_SAMPLES
+-    "Disable sample files" OFF)
++    "Disable sample files" ON)
+ 
+ option(EVENT__DISABLE_CLOCK_GETTIME
+     "Do not use clock_gettime even if it is available" OFF)
+diff --git a/event-config.h.cmake b/event-config.h.cmake
+index fccf0cf0..a93b30dc 100644
+--- a/event-config.h.cmake
++++ b/event-config.h.cmake
+@@ -214,9 +214,6 @@
+ /* Define to 1 if you have the `pipe' function. */
+ #cmakedefine EVENT__HAVE_PIPE 1
+ 
+-/* Define to 1 if you have the `pipe2' function. */
+-#cmakedefine EVENT__HAVE_PIPE2 1
+-
+ /* Define to 1 if you have the `poll' function. */
+ #cmakedefine EVENT__HAVE_POLL 1
+ 

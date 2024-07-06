@@ -1,0 +1,7 @@
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent.java
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/DigitalIdentitySafetyInterstitialBridge.java
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/DigitalIdentitySafetyInterstitialController.java
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/data/Account.java
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/data/ClientIdMetadata.java
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/data/IdentityCredentialTokenError.java
+../../chrome/browser/ui/android/webid/java/src/org/chromium/chrome/browser/ui/android/webid/data/IdentityProviderMetadata.java

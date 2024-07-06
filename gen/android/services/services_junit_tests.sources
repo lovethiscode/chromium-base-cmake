@@ -1,0 +1,5 @@
+../../services/device/generic_sensor/android/junit/src/org/chromium/device/sensors/PlatformSensorAndProviderTest.java
+../../services/device/geolocation/android/junit/src/org/chromium/device/geolocation/LocationProviderTest.java
+../../services/device/nfc/android/junit/src/org/chromium/device/nfc/NFCTest.java
+../../services/device/nfc/android/junit/src/org/chromium/device/nfc/NfcBlocklistTest.java
+../../services/shape_detection/android/junit/src/org/chromium/shape_detection/BitmapUtilsTest.java

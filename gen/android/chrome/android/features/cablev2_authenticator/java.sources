@@ -1,0 +1,4 @@
+../../chrome/android/features/cablev2_authenticator/java/src/org/chromium/chrome/browser/webauth/authenticator/BLEAdvert.java
+../../chrome/android/features/cablev2_authenticator/java/src/org/chromium/chrome/browser/webauth/authenticator/CableAuthenticator.java
+../../chrome/android/features/cablev2_authenticator/java/src/org/chromium/chrome/browser/webauth/authenticator/CableAuthenticatorUI.java
+../../chrome/android/features/cablev2_authenticator/java/src/org/chromium/chrome/browser/webauth/authenticator/USBHandler.java

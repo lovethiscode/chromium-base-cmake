@@ -1,0 +1,10 @@
+[
+  {
+    "expect_regex": "warning: .NoRedundantFieldInit",
+    "target": "//tools/android/errorprone_plugin/test/nocompile_gn:no_redundant_field_init_check_int_test_java"
+  },
+  {
+    "expect_regex": "warning: .TestClassNameCheck",
+    "target": "//tools/android/errorprone_plugin/test/nocompile_gn:test_class_name_check_test_java"
+  }
+]

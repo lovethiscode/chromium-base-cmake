@@ -1,0 +1,10 @@
+../../components/payments/content/android/java/src/org/chromium/components/payments/CSPChecker.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/MojoStructCollection.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentApp.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentAppFactoryDelegate.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentAppFactoryInterface.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentAppFactoryParams.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentAppService.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentHandlerHost.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentRequestParams.java
+../../components/payments/content/android/java/src/org/chromium/components/payments/PaymentRequestSpec.java

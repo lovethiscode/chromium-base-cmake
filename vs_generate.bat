@@ -1,1 +1,1 @@
-cmake . -B out/win -G "Visual Studio 17 2022" -A x64 -T ClangCL -DCHROM_BUILD_SHARED=ON
+cmake . -B out/win -G "Visual Studio 17 2022" -A x64 -T ClangCL

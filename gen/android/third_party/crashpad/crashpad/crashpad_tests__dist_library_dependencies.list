@@ -1,0 +1,6 @@
+[
+  "libcrashpad_snapshot_test_module.so",
+  "libcrashpad_snapshot_test_module_large.so",
+  "libcrashpad_snapshot_test_module_small.so",
+  "libcrashpad_snapshot_test_both_dt_hash_styles.so"
+]

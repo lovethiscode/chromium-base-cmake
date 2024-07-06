@@ -1,0 +1,11 @@
+../../components/infobars/android/java/src/org/chromium/components/infobars/ConfirmInfoBar.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBar.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarAnimationListener.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarCompactLayout.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarContainerLayout.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarControlLayout.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarInteractionHandler.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarLayout.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarMessageView.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarUiItem.java
+../../components/infobars/android/java/src/org/chromium/components/infobars/InfoBarWrapper.java

@@ -1,0 +1,4 @@
+../../components/android_autofill/browser/test_support/java/src/org/chromium/components/autofill/AutofillHintsServiceTestHelper.java
+../../components/android_autofill/browser/test_support/java/src/org/chromium/components/autofill/AutofillProviderTestHelper.java
+../../components/android_autofill/browser/test_support/java/src/org/chromium/components/autofill/FormFieldDataBuilder.java
+../../components/android_autofill/browser/test_support/java/src/org/chromium/components/autofill/TestViewStructure.java

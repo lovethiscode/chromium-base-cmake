@@ -1,0 +1,3 @@
+../../components/permissions/android/junit/src/org/chromium/components/permissions/PermissionDialogCustomViewBinderTest.java
+../../components/permissions/android/junit/src/org/chromium/components/permissions/PermissionOneTimeDialogCustomViewBinderTest.java
+../../components/permissions/android/junit/src/org/chromium/components/permissions/nfc/NfcSystemLevelPromptTest.java

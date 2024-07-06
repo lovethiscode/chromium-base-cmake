@@ -1,0 +1,3 @@
+../../components/privacy_sandbox/android/javatests/src/org/chromium/components/privacy_sandbox/FingerprintingProtectionSettingsFragmentTest.java
+../../components/privacy_sandbox/android/javatests/src/org/chromium/components/privacy_sandbox/IpProtectionSettingsFragmentTest.java
+../../components/privacy_sandbox/android/javatests/src/org/chromium/components/privacy_sandbox/TrackingProtectionSettingsTest.java

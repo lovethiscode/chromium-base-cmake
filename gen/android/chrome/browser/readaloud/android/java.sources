@@ -1,0 +1,8 @@
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/BoyerMoore.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudController.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudIPHController.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudMiniPlayerSceneLayer.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudPrefs.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudToolbarButtonController.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/TabModelTabObserver.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/TapToSeekHandler.java

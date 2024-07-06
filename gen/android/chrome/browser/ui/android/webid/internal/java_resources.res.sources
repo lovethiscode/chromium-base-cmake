@@ -1,0 +1,10 @@
+../../chrome/browser/ui/android/webid/internal/java/res/layout/account_selection_account_item.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/account_selection_button_mode_sheet.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/account_selection_continue_button.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/account_selection_data_sharing_consent_item.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/account_selection_header_item.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/account_selection_sheet.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/error_description_text_item.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/error_summary_text_item.xml
+../../chrome/browser/ui/android/webid/internal/java/res/layout/idp_signin_text_item.xml
+../../chrome/browser/ui/android/webid/internal/java/res/values/dimens.xml

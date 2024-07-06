@@ -1,0 +1,9 @@
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/BottomBarManager.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/BrowserActionsReceiver.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/CustomTabsPackageHelper.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/MainActivity.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/SessionHelper.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/shared/CustomTabsHelper.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/shared/KeepAliveService.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/shared/ServiceConnection.java
+../../chrome/browser/android/examples/custom_tabs_client/src/java/org/chromium/customtabsclient/shared/ServiceConnectionCallback.java

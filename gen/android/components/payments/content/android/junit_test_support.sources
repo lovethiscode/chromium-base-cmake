@@ -1,0 +1,3 @@
+../../components/payments/content/android/junit/src/org/chromium/components/payments/test_support/DefaultPaymentFeatureConfig.java
+../../components/payments/content/android/junit/src/org/chromium/components/payments/test_support/PaymentRequestServiceBuilder.java
+../../components/payments/content/android/junit/src/org/chromium/components/payments/test_support/ShadowWebContentsStatics.java

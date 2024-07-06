@@ -1,0 +1,10 @@
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/PasswordsCheckPreferenceProperties.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckBridge.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckComponentUi.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckCoordinator.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckElementPreference.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckMediator.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckProperties.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckSettingsFragment.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckUpdatesDelegate.java
+../../chrome/browser/safety_check/android/java/src/org/chromium/chrome/browser/safety_check/SafetyCheckViewBinder.java

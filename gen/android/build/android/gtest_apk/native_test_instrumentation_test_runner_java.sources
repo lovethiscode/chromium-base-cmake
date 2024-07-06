@@ -1,0 +1,4 @@
+../../build/android/gtest_apk/java/src/org/chromium/build/gtest_apk/NativeTestInstrumentationTestRunner.java
+../../build/android/gtest_apk/java/src/org/chromium/build/gtest_apk/NativeTestIntent.java
+../../build/android/gtest_apk/java/src/org/chromium/build/gtest_apk/TestStatusIntent.java
+../../build/android/gtest_apk/java/src/org/chromium/build/gtest_apk/TestStatusReceiver.java

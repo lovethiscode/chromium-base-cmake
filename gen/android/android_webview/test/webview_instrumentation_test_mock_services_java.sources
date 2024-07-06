@@ -1,0 +1,4 @@
+../../android_webview/javatests/src/org/chromium/android_webview/test/component_updater/MockComponentsProviderService.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/services/MockAwComponentUpdateService.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/services/MockMetricsBridgeService.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/services/MockVariationsSeedServer.java

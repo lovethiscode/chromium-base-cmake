@@ -1,0 +1,13 @@
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/CompressContactIconsWorkerTask.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactDetails.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactView.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactViewHolder.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactsFetcherWorkerTask.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactsPickerDialog.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureList.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureMap.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/ContactsPickerToolbar.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/FetchIconWorkerTask.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/PickerAdapter.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/PickerCategoryView.java
+../../components/browser_ui/contacts_picker/android/java/src/org/chromium/components/browser_ui/contacts_picker/TopView.java

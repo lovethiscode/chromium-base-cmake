@@ -1,0 +1,4 @@
+obj/third_party/android_deps/google_play_services_auth_java/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml
+obj/third_party/android_deps/google_play_services_auth_java/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml
+obj/third_party/android_deps/google_play_services_auth_java/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml
+obj/third_party/android_deps/google_play_services_auth_java/res/values-watch-v20/values.xml

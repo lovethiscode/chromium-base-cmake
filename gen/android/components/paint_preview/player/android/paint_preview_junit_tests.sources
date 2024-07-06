@@ -1,0 +1,9 @@
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/PlayerManagerTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/PlayerUserFrustrationDetectorTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PaintPreviewCustomFlingingShadowScroller.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameBitmapPainterTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameCoordinatorTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameMediatorTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameScaleControllerTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameScrollControllerTest.java
+../../components/paint_preview/player/android/junit/src/org/chromium/components/paintpreview/player/frame/PlayerFrameViewportTest.java

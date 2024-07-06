@@ -1,0 +1,10 @@
+../../chrome/browser/search_engines/android/java/res/drawable/search_sogou.xml
+../../chrome/browser/search_engines/android/java/res/layout/default_search_engine_dialog_view.xml
+../../chrome/browser/search_engines/android/java/res/layout/search_engine.xml
+../../chrome/browser/search_engines/android/java/res/layout/search_engine_choice_header.xml
+../../chrome/browser/search_engines/android/java/res/layout/search_engine_choice_item.xml
+../../chrome/browser/search_engines/android/java/res/layout/search_engine_choice_view.xml
+../../chrome/browser/search_engines/android/java/res/layout/search_engine_recent_title.xml
+../../chrome/browser/search_engines/android/java/res/layout/search_engine_with_logo.xml
+../../chrome/browser/search_engines/android/java/res/values/dimens.xml
+../../chrome/browser/search_engines/android/java/res/values/ids.xml

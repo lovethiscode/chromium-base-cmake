@@ -1,0 +1,22 @@
+[
+  {
+    "expect_regex": "Hint: Try adding the following to //build/android/test/nocompile_gn:import_child_missing_symbol_test_java\n *\"//build/android/test/nocompile_gn:sub_b_java\"",
+    "target": "//build/android/test/nocompile_gn:import_child_missing_symbol_test_java"
+  },
+  {
+    "expect_regex": "Hint: Try adding the following to //build/android/test/nocompile_gn:import_parent_missing_symbol_test_java\n *\"//build/android/test/nocompile_gn:b_java\"",
+    "target": "//build/android/test/nocompile_gn:import_parent_missing_symbol_test_java"
+  },
+  {
+    "expect_regex": "Hint: Try adding the following to //build/android/test/nocompile_gn:import_turbine_missing_symbol_test_java\n *\"//build/android/test/nocompile_gn:b_java\"",
+    "target": "//build/android/test/nocompile_gn:import_turbine_missing_symbol_test_java"
+  },
+  {
+    "expect_regex": "Hint: Try adding the following to //build/android/test/nocompile_gn:prebuilt_missing_symbol_test_java\n *\"//build/android/test/nocompile_gn:c_prebuilt_java\"",
+    "target": "//build/android/test/nocompile_gn:prebuilt_missing_symbol_test_java"
+  },
+  {
+    "expect_regex": "Hint: Try adding the following to //build/android/test/nocompile_gn:cpp_template_missing_symbol_test_java\n *\"//build/android/test/nocompile_gn:d_java\"",
+    "target": "//build/android/test/nocompile_gn:cpp_template_missing_symbol_test_java"
+  }
+]

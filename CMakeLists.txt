@@ -95,6 +95,13 @@ if(LINUX OR ANDROID)
         COMMAND git checkout release-2.1.12-stable
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libevent
         )
+
+
+        execute_process(
+            COMMAND git apply ${CMAKE_CURRENT_SOURCE_DIR}/patch/libevent.patch
+            WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/third_party/libevent
+        )
+
     endif()
 endif()
 
@@ -162,6 +169,8 @@ elseif(ANDROID)
     set(CURRENT_CPU "arm64")
   elseif(${ANDROID_ABI} STREQUAL "armeabi-v7a")
     set(CURRENT_CPU "arm")
+  elseif(${ANDROID_ABI} STREQUAL "x86_64")
+    set(CURRENT_CPU "x64")  
   endif()
   set(use_libevent ON)
   set(EVENT__LIBRARY_TYPE "STATIC")
@@ -2186,4 +2195,8 @@ target_link_libraries(${PROJECT_NAME} PUBLIC  ${COMMON_LIBRARY})
 add_subdirectory(example/console)
 if(MACOSX)
     add_subdirectory(example/MACOSX)
+elseif(IOS)
+    add_subdirectory(example/iOS)
+elseif(WIN32)
+	add_subdirectory(example/Windows)
 endif(MACOSX)

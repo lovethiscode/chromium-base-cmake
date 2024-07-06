@@ -1,0 +1,52 @@
+Log file created at: 2024/06/29 20:10:09
+Running on machine: test
+Binary: Built with gc go1.20.7 X:nocoverageredesign for linux/amd64
+Previous log: <none>
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0629 20:10:09.704595  107788 rbeflag.go:117] Command line flags:
+--alsologtostderr=false \
+--async_reproxy_termination=true \
+--automatic_auth=false \
+--cache_dir=/home/test/chrom/.reproxy_cache/4429b4909e4423e274e7c2b71dccef82 \
+--cfg=/home/test/chrom/src/buildtools/reclient_cfgs/reproxy.cfg \
+--clean_include_paths=false \
+--credential_file= \
+--enable_creds_cache=true \
+--experimental_cache_miss_rate=0 \
+--experimental_credentials_helper=/home/test/chrom/src/buildtools/reclient/credshelper \
+--experimental_credentials_helper_args=--auth_source=automaticAuth --gcert_refresh_timeout=20 \
+--experimental_exit_on_stuck_actions=false \
+--experimental_goma_deps_cache=true \
+--experimental_sysroot_do_not_upload=false \
+--fast_log_collection=true \
+--gcert_refresh_timeout=0 \
+--log_backtrace_at= \
+--log_dir=/home/test/chrom/src/out/android/.reproxy_tmp/logs/20240629T121009.666341_ca9b060f-249d-4a27-9bdb-c5cacfefee2c \
+--log_format=reducedtext \
+--log_http_calls=false \
+--log_link= \
+--log_path= \
+--logbuflevel=0 \
+--logtostderr=false \
+--metrics_project= \
+--metrics_uploader=/home/test/chrom/src/buildtools/reclient/metricsuploader \
+--output_dir=/home/test/chrom/src/out/android/.reproxy_tmp/logs/20240629T121009.666341_ca9b060f-249d-4a27-9bdb-c5cacfefee2c \
+--proxy_log_dir=/home/test/chrom/src/out/android/.reproxy_tmp/logs/20240629T121009.666341_ca9b060f-249d-4a27-9bdb-c5cacfefee2c \
+--re_proxy=/home/test/chrom/src/buildtools/reclient/reproxy \
+--remote_disabled=false \
+--reproxy_wait_seconds=20 \
+--server_address=unix:///tmp/reproxy_53895803f9b5760465278ee8e26f657d150bd2392a979df292e23251d9a67285.sock \
+--service_no_auth=false \
+--shadow_header_detection=false \
+--shutdown=false \
+--shutdown_seconds=60 \
+--stderrthreshold=2 \
+--use_application_default_credentials=false \
+--use_external_auth_token=false \
+--use_gce_credentials=false \
+--use_gcloud_creds=false \
+--use_google_prod_creds=false \
+--v=0 \
+--version=false \
+--version_sdk=false \
+--vmodule=

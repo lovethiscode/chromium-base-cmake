@@ -1,0 +1,7 @@
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/CredentialManagerLauncherFactoryImpl.java
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/PasswordCheckupClientHelperFactoryImpl.java
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/PasswordManagerBackendSupportHelperImpl.java
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/PasswordManagerResourceProviderImpl.java
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/PasswordSettingsAccessorFactoryImpl.java
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/PasswordStoreAndroidBackendFactoryImpl.java
+../../chrome/browser/password_manager/android/java/src/org/chromium/chrome/browser/password_manager/PasswordSyncControllerDelegateFactoryImpl.java

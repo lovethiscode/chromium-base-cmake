@@ -1,0 +1,14 @@
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/ForeignSessionSuggestionBackendTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/LocalTabTabResumptionDataProviderTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/MixedTabResumptionDataProviderTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/SyncDerivedSuggestionEntrySourceTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/SyncDerivedTabResumptionDataProviderTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TabResumptionModuleCoordinatorUnitTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TabResumptionModuleEnablementUnitTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TabResumptionModuleMediatorUnitTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TabResumptionModuleMetricsUtilsUnitTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TabResumptionModuleSuggestionsUnitTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TabResumptionModuleViewUnitTest.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TestSupport.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/TestSupportExtended.java
+../../chrome/browser/tab_resumption/junit/src/org/chromium/chrome/browser/tab_resumption/UrlImageSourceImplUnitTest.java

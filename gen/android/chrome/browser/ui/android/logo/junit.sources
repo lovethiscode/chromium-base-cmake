@@ -1,0 +1,5 @@
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/CachedTintedBitmapUnitTest.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoMediatorUnitTest.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoUtilsUnitTest.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoViewBinderUnitTest.java
+../../chrome/browser/ui/android/logo/java/src/org/chromium/chrome/browser/logo/LogoViewTest.java

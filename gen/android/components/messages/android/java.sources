@@ -1,0 +1,11 @@
+../../components/messages/android/java/src/org/chromium/components/messages/MessageAutodismissDurationProvider.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageBannerProperties.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageContainer.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageDispatcher.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageDispatcherBridge.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageDispatcherProvider.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageFeatureList.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageFeatureMap.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageSecondaryMenuItems.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessageWrapper.java
+../../components/messages/android/java/src/org/chromium/components/messages/MessagesMetrics.java

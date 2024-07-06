@@ -1,0 +1,14 @@
+{
+  "deps": [
+    "../../mojo/public/mojom/base/base.build_metadata",
+    "../../skia/public/mojom/mojom.build_metadata",
+    "../../third_party/blink/public/mojom/tokens/tokens.build_metadata",
+    "../../ui/gfx/geometry/mojom/mojom.build_metadata",
+    "../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../android_webview/common/mojom/frame.mojom",
+    "../../../../../android_webview/common/mojom/render_message_filter.mojom",
+    "../../../../../android_webview/common/mojom/renderer.mojom"
+  ]
+}

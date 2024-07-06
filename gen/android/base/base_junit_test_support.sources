@@ -1,0 +1,13 @@
+../../third_party/robolectric/custom_asynctask/java/src/org/chromium/base/task/test/ShadowAsyncTask.java
+../../third_party/robolectric/custom_asynctask/java/src/org/chromium/base/task/test/ShadowAsyncTaskBridge.java
+../../base/test/android/junit/src/org/chromium/base/task/test/BackgroundShadowAsyncTask.java
+../../base/test/android/junit/src/org/chromium/base/task/test/CustomShadowAsyncTask.java
+../../base/test/android/junit/src/org/chromium/base/task/test/PausedExecutorTestRule.java
+../../base/test/android/junit/src/org/chromium/base/task/test/ShadowPostTask.java
+../../base/test/android/junit/src/org/chromium/base/test/BaseRobolectricAndroidConfigurer.java
+../../base/test/android/junit/src/org/chromium/base/test/BaseRobolectricTestListener.java
+../../base/test/android/junit/src/org/chromium/base/test/BaseRobolectricTestRule.java
+../../base/test/android/junit/src/org/chromium/base/test/BaseRobolectricTestRunner.java
+../../base/test/android/junit/src/org/chromium/base/test/ShadowBuildInfo.java
+../../base/test/android/junit/src/org/chromium/base/test/util/BaseFlagTestRule.java
+../../base/test/android/junit/src/org/chromium/base/test/util/TestRunnerTestRule.java

@@ -1,0 +1,3 @@
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/test_support/MockPaymentUiServiceBuilder.java
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/test_support/PaymentRequestParamsBuilder.java
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/test_support/ShadowProfile.java

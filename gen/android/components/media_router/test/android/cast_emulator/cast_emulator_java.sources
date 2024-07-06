@@ -1,0 +1,9 @@
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/RoutePublisher.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/TestMediaRouteProvider.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/TestMediaRouteProviderService.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/remote/DummyPlayer.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/remote/LocalSessionManager.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/remote/MediaItem.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/remote/RemotePlaybackRoutePublisher.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/remote/RemoteSessionManager.java
+../../components/media_router/test/android/cast_emulator/src/org/chromium/components/media_router/cast_emulator/router/DummyRoutePublisher.java

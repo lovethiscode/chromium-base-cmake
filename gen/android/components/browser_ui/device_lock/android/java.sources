@@ -1,0 +1,4 @@
+../../components/browser_ui/device_lock/android/java/src/org/chromium/components/browser_ui/device_lock/DeviceLockActivityLauncher.java
+../../components/browser_ui/device_lock/android/java/src/org/chromium/components/browser_ui/device_lock/DeviceLockActivityLauncherSupplier.java
+../../components/browser_ui/device_lock/android/java/src/org/chromium/components/browser_ui/device_lock/DeviceLockBridge.java
+../../components/browser_ui/device_lock/android/java/src/org/chromium/components/browser_ui/device_lock/DeviceLockDialogMetrics.java

@@ -1,0 +1,16 @@
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/AppLanguagePromoDialog.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/LanguageBridge.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/AlwaysTranslateListFragment.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/ContentLanguagesPreference.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguageItem.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguageItemListFragment.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguageItemListPreference.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguageItemPickerPreference.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguageSettings.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguagesManager.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/NeverTranslateListFragment.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/SelectLanguageFragment.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/translate/TranslateBridge.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/translate/TranslationObserver.java

@@ -1,0 +1,9 @@
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediatorTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageContextTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageSchedulerTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetricsTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCallbackHelper.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCoordinatorTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsDataProviderTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediatorTest.java
+../../chrome/browser/commerce/merchant_viewer/android/javatests/src/org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsStorageFactoryTest.java

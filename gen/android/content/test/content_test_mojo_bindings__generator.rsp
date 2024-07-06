@@ -1,0 +1,3 @@
+../../content/public/test/mojo_capability_control_test_interfaces.mojom
+../../content/public/test/test_service.mojom
+../../content/test/frame_host_test_interface.mojom

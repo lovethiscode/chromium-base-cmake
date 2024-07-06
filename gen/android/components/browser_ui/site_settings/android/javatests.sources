@@ -1,0 +1,4 @@
+../../components/browser_ui/site_settings/android/javatests/src/org/chromium/components/browser_ui/site_settings/RwsRowPreferenceTest.java
+../../components/browser_ui/site_settings/android/javatests/src/org/chromium/components/browser_ui/site_settings/WebsiteAddressTest.java
+../../components/browser_ui/site_settings/android/javatests/src/org/chromium/components/browser_ui/site_settings/WebsiteGroupTest.java
+../../components/browser_ui/site_settings/android/javatests/src/org/chromium/components/browser_ui/site_settings/WebsiteRowPreferenceTest.java

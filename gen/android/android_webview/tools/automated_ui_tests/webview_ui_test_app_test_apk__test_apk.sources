@@ -1,0 +1,9 @@
+../../android_webview/tools/automated_ui_tests/java/src/org/chromium/webview_ui_test/WebViewUiTestActivity.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/ActionModeTest.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/DropDownListTest.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/WebViewJSTest.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/util/Actions.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/util/Atoms.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/util/UseLayout.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/util/WebViewSyncWrapper.java
+../../android_webview/tools/automated_ui_tests/javatests/src/org/chromium/webview_ui_test/test/util/WebViewUiTestRule.java

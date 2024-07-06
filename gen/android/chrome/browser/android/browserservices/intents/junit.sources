@@ -1,0 +1,4 @@
+../../chrome/browser/android/browserservices/intents/java/src/org/chromium/chrome/browser/browserservices/intents/MergedWebappInfoTest.java
+../../chrome/browser/android/browserservices/intents/java/src/org/chromium/chrome/browser/browserservices/intents/WebApkInfoTest.java
+../../chrome/browser/android/browserservices/intents/java/src/org/chromium/chrome/browser/browserservices/intents/WebappInfoTest.java
+../../chrome/browser/android/browserservices/intents/java/src/org/chromium/chrome/browser/browserservices/intents/WebappIntentUtilsTest.java

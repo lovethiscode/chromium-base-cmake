@@ -1,0 +1,5 @@
+../../chrome/browser/ui/android/theme/java/src/org/chromium/chrome/browser/theme/ThemeColorProvider.java
+../../chrome/browser/ui/android/theme/java/src/org/chromium/chrome/browser/theme/ThemeUtils.java
+../../chrome/browser/ui/android/theme/java/src/org/chromium/chrome/browser/theme/TopUiThemeColorProvider.java
+../../chrome/browser/ui/android/theme/java/src/org/chromium/chrome/browser/ui/theme/BrandedColorScheme.java
+../../chrome/browser/ui/android/theme/java/src/org/chromium/chrome/browser/ui/theme/ChromeSemanticColorUtils.java

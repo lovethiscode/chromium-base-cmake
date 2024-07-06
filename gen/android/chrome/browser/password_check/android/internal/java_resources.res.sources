@@ -1,0 +1,6 @@
+../../chrome/browser/password_check/android/internal/java/res/drawable-night/password_check_positive.xml
+../../chrome/browser/password_check/android/internal/java/res/drawable/password_check_positive.xml
+../../chrome/browser/password_check/android/internal/java/res/layout/password_check_compromised_credential_item.xml
+../../chrome/browser/password_check/android/internal/java/res/layout/password_check_header_item.xml
+../../chrome/browser/password_check/android/internal/java/res/layout/password_check_view_credential_dialog.xml
+../../chrome/browser/password_check/android/internal/java/res/values/dimens.xml

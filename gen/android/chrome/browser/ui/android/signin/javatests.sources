@@ -1,0 +1,7 @@
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/SyncPromoControllerUITest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/account_picker/AccountPickerBottomSheetRenderTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/account_picker/AccountPickerBottomSheetTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/account_picker/AccountPickerBottomSheetTestUtil.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/history_sync/HistorySyncHelperTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/history_sync/HistorySyncRenderTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/history_sync/HistorySyncTest.java

@@ -1,0 +1,4 @@
+../../chrome/browser/screenshot_monitor/java/src/org/chromium/chrome/browser/screenshot_monitor/ScreenshotMonitor.java
+../../chrome/browser/screenshot_monitor/java/src/org/chromium/chrome/browser/screenshot_monitor/ScreenshotMonitorDelegate.java
+../../chrome/browser/screenshot_monitor/java/src/org/chromium/chrome/browser/screenshot_monitor/ScreenshotMonitorImpl.java
+../../chrome/browser/screenshot_monitor/java/src/org/chromium/chrome/browser/screenshot_monitor/ScreenshotTabObserver.java

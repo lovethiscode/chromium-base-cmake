@@ -1,0 +1,7 @@
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/IncognitoSignInInteractionTest.java
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/SupervisedUserCriticalJourneysIntegrationTest.java
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/SupervisedUserSettingsTestUtils.java
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalNativesTest.java
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalTest.java
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalTestUtils.java
+../../chrome/browser/supervised_user/android/javatests/src/org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalSheetContentTest.java

@@ -1,0 +1,7 @@
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageAnimationCoordinatorUnitTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageAutoDismissTimerTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerCoordinatorUnitTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerMediatorUnitTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageDispatcherUnitTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageQueueManagerTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/ScopeChangeControllerTest.java

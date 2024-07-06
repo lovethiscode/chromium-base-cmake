@@ -1,0 +1,9 @@
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/AndroidNullableCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoAndroidAsyncTaskCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoDynamicStringsInTraceEventCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoRedundantFieldInitCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoResourcesGetColor.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedMethodCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedThisCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/TestClassNameCheck.java
+../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/UseNetworkAnnotations.java

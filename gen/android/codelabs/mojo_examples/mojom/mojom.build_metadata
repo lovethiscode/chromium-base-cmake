@@ -1,0 +1,11 @@
+{
+  "deps": [
+    "../../../ipc/mojom.build_metadata",
+    "../../../ipc/mojom_constants.build_metadata",
+    "../../../ipc/mojom.build_metadata",
+    "../../../ipc/mojom_constants.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../codelabs/mojo_examples/mojom/interface.mojom"
+  ]
+}

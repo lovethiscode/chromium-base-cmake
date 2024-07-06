@@ -1,0 +1,9 @@
+../../tools/android/audio_focus_grabber/java/res/drawable-hdpi/notification_icon.png
+../../tools/android/audio_focus_grabber/java/res/drawable-mdpi/notification_icon.png
+../../tools/android/audio_focus_grabber/java/res/drawable-xhdpi/notification_icon.png
+../../tools/android/audio_focus_grabber/java/res/drawable-xxhdpi/notification_icon.png
+../../tools/android/audio_focus_grabber/java/res/drawable-xxxhdpi/notification_icon.png
+../../tools/android/audio_focus_grabber/java/res/layout/audio_focus_grabber_activity.xml
+../../tools/android/audio_focus_grabber/java/res/layout/audio_focus_grabber_notification_bar.xml
+../../tools/android/audio_focus_grabber/java/res/raw/ping.mp3
+../../tools/android/audio_focus_grabber/java/res/values/strings.xml

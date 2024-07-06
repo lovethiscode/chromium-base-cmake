@@ -1,0 +1,100 @@
+[
+  {
+    "traits_headers": [
+      "content/common/frame_owner_element_type_mojom_traits.h",
+      "content/common/input/input_injector_mojom_traits.h",
+      "content/common/input/synthetic_pinch_gesture_params.h",
+      "content/common/input/synthetic_pointer_action_list_params.h",
+      "content/common/input/synthetic_smooth_drag_gesture_params.h",
+      "content/common/input/synthetic_smooth_scroll_gesture_params.h",
+      "content/common/input/synthetic_tap_gesture_params.h",
+      "content/common/navigation_gesture.h",
+      "net/base/network_change_notifier.h",
+      "third_party/blink/public/common/navigation/impression.h",
+      "third_party/blink/public/common/widget/visual_properties.h",
+      "ui/events/types/scroll_types.h",
+      "ui/native_theme/native_theme.h"
+    ],
+    "traits_private_headers": [
+      "content/common/content_param_traits_macros.h",
+      "content/public/common/common_param_traits.h",
+      "services/network/public/cpp/p2p_param_traits.h"
+    ],
+    "traits_public_deps": [
+      "//content/common:buildflags",
+      "//ppapi/buildflags",
+      "//ui/events/blink"
+    ],
+    "traits_sources": [
+      "//content/common/frame_owner_element_type_mojom_traits.cc",
+      "//content/common/input/input_injector_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::blink::FrameOwnerElementType",
+        "mojom": "content.mojom.ChildFrameOwnerElementType"
+      },
+      {
+        "cpp": "::content::NavigationGesture",
+        "mojom": "content.mojom.NavigationGesture"
+      },
+      {
+        "cpp": "::net::NetworkChangeNotifier::ConnectionType",
+        "mojom": "content.mojom.NetworkConnectionType"
+      },
+      {
+        "cpp": "::blink::Impression",
+        "mojom": "content.mojom.Impression"
+      },
+      {
+        "cpp": "::ui::ScrollGranularity",
+        "mojom": "content.mojom.ScrollGranularity"
+      },
+      {
+        "cpp": "::content::SyntheticPinchGestureParams",
+        "mojom": "content.mojom.SyntheticPinch"
+      },
+      {
+        "cpp": "::content::SyntheticPointerActionListParams",
+        "mojom": "content.mojom.SyntheticPointerAction"
+      },
+      {
+        "cpp": "::content::SyntheticSmoothDragGestureParams",
+        "mojom": "content.mojom.SyntheticSmoothDrag"
+      },
+      {
+        "cpp": "::content::SyntheticSmoothScrollGestureParams",
+        "mojom": "content.mojom.SyntheticSmoothScroll"
+      },
+      {
+        "cpp": "::content::SyntheticTapGestureParams",
+        "mojom": "content.mojom.SyntheticTap"
+      },
+      {
+        "cpp": "::ui::NativeTheme::SystemThemeColor",
+        "mojom": "content.mojom.SystemThemeColor"
+      },
+      {
+        "cpp": "::blink::VisualProperties",
+        "mojom": "content.mojom.VisualProperties"
+      }
+    ]
+  },
+  {
+    "traits_headers": [
+      "content/public/common/common_param_traits.h",
+      "third_party/blink/public/common/page_state/page_state.h",
+      "ui/base/page_transition_types.h"
+    ],
+    "types": [
+      {
+        "cpp": "::blink::PageState",
+        "mojom": "content.mojom.PageState"
+      },
+      {
+        "cpp": "::ui::PageTransition",
+        "mojom": "content.mojom.PageTransition"
+      }
+    ]
+  }
+]

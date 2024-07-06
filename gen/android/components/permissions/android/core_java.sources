@@ -1,0 +1,3 @@
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionUtil.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionsAndroidFeatureList.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionsAndroidFeatureMap.java

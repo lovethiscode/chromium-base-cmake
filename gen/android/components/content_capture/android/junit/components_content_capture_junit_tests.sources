@@ -1,0 +1,3 @@
+../../components/content_capture/android/junit/src/org/chromium/components/content_capture/PlatformAPIWrapperTest.java
+../../components/content_capture/android/junit/src/org/chromium/components/content_capture/PlatformContentCaptureControllerTest.java
+../../components/content_capture/android/junit/src/org/chromium/components/content_capture/UrlAllowlistTest.java

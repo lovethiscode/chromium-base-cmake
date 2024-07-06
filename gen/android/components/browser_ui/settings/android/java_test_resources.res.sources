@@ -1,0 +1,4 @@
+../../components/browser_ui/settings/android/widget/java_test_resources/res/layout/chrome_managed_preference_with_custom_layout.xml
+../../components/browser_ui/settings/android/widget/java_test_resources/res/xml/test_chrome_base_checkbox_preference_screen.xml
+../../components/browser_ui/settings/android/widget/java_test_resources/res/xml/test_chrome_base_preference_screen.xml
+../../components/browser_ui/settings/android/widget/java_test_resources/res/xml/test_chrome_switch_preference_screen.xml

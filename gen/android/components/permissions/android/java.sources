@@ -1,0 +1,17 @@
+../../components/permissions/android/java/src/org/chromium/components/permissions/AndroidPermissionRequester.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/BluetoothChooserAndroidDelegate.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/BluetoothChooserDialog.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/BluetoothScanningPermissionDialog.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/BluetoothScanningPromptAndroidDelegate.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/DeviceItemAdapter.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/DeviceItemRow.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/ItemChooserDialog.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionDialogController.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionDialogCustomViewBinder.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionDialogCustomViewModelFactory.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionDialogCustomViewProperties.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionDialogDelegate.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionDialogModelFactory.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/PermissionOneTimeDialogCustomViewBinder.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/nfc/NfcSystemLevelPrompt.java
+../../components/permissions/android/java/src/org/chromium/components/permissions/nfc/NfcSystemLevelSetting.java

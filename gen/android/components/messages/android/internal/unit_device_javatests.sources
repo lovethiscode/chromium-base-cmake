@@ -1,0 +1,3 @@
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerRenderTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerViewTest.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/SingleActionMessageTest.java

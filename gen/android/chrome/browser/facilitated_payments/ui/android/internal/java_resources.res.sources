@@ -1,0 +1,8 @@
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/drawable/lock_icon.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/layout/bank_account_item.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/layout/facilitated_payments_fop_selector.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/layout/facilitated_payments_payment_methods_additional_info.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/layout/facilitated_payments_payment_methods_sheet_header_item.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/layout/facilitated_payments_progress_screen.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/layout/facilitated_payments_sequence_view.xml
+../../chrome/browser/facilitated_payments/ui/android/internal/java/res/values/dimens.xml

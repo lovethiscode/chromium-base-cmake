@@ -1,0 +1,3 @@
+../../chrome/browser/ui/android/fast_checkout/java/src/org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutComponent.java
+../../chrome/browser/ui/android/fast_checkout/java/src/org/chromium/chrome/browser/ui/fast_checkout/data/FastCheckoutAutofillProfile.java
+../../chrome/browser/ui/android/fast_checkout/java/src/org/chromium/chrome/browser/ui/fast_checkout/data/FastCheckoutCreditCard.java

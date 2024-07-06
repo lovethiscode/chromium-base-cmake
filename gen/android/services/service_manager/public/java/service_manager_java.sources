@@ -1,0 +1,4 @@
+../../services/service_manager/public/java/src/org/chromium/services/service_manager/Connector.java
+../../services/service_manager/public/java/src/org/chromium/services/service_manager/InterfaceFactory.java
+../../services/service_manager/public/java/src/org/chromium/services/service_manager/InterfaceProvider.java
+../../services/service_manager/public/java/src/org/chromium/services/service_manager/InterfaceRegistry.java

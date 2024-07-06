@@ -1,0 +1,12 @@
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/ExponentialBackoffScheduler.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/MarketURLGetter.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/OmahaPrefUtils.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/RequestFailureException.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/StringSanitizer.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/UpdateConfigs.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/UpdateStatusProvider.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/VersionNumber.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/VersionNumberGetter.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/XMLParser.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/metrics/TrackingProvider.java
+../../chrome/browser/omaha/android/java/src/org/chromium/chrome/browser/omaha/metrics/UpdateSuccessMetrics.java

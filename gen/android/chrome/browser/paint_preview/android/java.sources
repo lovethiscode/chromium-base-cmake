@@ -1,0 +1,7 @@
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/DemoPaintPreview.java
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/PaintPreviewCompositorUtils.java
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/StartupPaintPreview.java
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/StartupPaintPreviewMetrics.java
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/TabbedPaintPreview.java
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/services/PaintPreviewTabService.java
+../../chrome/browser/paint_preview/android/java/src/org/chromium/chrome/browser/paint_preview/services/PaintPreviewTabServiceFactory.java

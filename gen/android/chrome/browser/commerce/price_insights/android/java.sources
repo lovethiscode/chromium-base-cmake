@@ -1,0 +1,6 @@
+../../chrome/browser/commerce/price_insights/android/java/src/org/chromium/chrome/browser/price_insights/PriceInsightsBottomSheetContent.java
+../../chrome/browser/commerce/price_insights/android/java/src/org/chromium/chrome/browser/price_insights/PriceInsightsBottomSheetCoordinator.java
+../../chrome/browser/commerce/price_insights/android/java/src/org/chromium/chrome/browser/price_insights/PriceInsightsBottomSheetMediator.java
+../../chrome/browser/commerce/price_insights/android/java/src/org/chromium/chrome/browser/price_insights/PriceInsightsBottomSheetProperties.java
+../../chrome/browser/commerce/price_insights/android/java/src/org/chromium/chrome/browser/price_insights/PriceInsightsBottomSheetViewBinder.java
+../../chrome/browser/commerce/price_insights/android/java/src/org/chromium/chrome/browser/price_insights/PriceInsightsButtonController.java

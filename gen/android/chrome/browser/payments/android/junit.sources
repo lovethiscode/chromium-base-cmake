@@ -1,0 +1,5 @@
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/AutofillContactTest.java
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/AutofillContactUnitTest.java
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/ChromePaymentRequestFactoryTest.java
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/PaymentRequestIntegrationTest.java
+../../chrome/browser/payments/android/java/src/org/chromium/chrome/browser/payments/handler/toolbar/PaymentHandlerToolbarMediatorTest.java

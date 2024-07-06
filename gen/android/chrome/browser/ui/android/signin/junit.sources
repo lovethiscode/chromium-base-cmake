@@ -1,0 +1,7 @@
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/ConfirmSyncDataStateMachineTest.java
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/FullscreenSigninPromoUtilTest.java
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/SigninAccountPickerCoordinatorTest.java
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/SigninUtilsTest.java
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/SyncPromoControllerTest.java
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/account_picker/AccountPickerMediatorTest.java
+../../chrome/browser/ui/android/signin/junit/src/org/chromium/chrome/browser/ui/signin/account_picker/WebSigninAccountPickerDelegateTest.java

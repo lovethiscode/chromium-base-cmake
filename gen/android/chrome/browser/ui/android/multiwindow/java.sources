@@ -1,0 +1,11 @@
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/CloseConfirmationDialogView.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/InstanceInfo.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/InstanceSwitcherCoordinator.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/InstanceSwitcherItemProperties.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/InstanceSwitcherItemViewBinder.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/MultiInstanceIphController.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/MultiInstanceState.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/TargetSelectorCoordinator.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/TargetSelectorItemProperties.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/TargetSelectorItemViewBinder.java
+../../chrome/browser/ui/android/multiwindow/java/src/org/chromium/chrome/browser/multiwindow/UiUtils.java

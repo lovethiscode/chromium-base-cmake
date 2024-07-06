@@ -1,0 +1,3 @@
+../../chrome/browser/commerce/price_change/android/junit/src/org/chromium/chrome/browser/price_change/PriceChangeModuleBinderTest.java
+../../chrome/browser/commerce/price_change/android/junit/src/org/chromium/chrome/browser/price_change/PriceChangeModuleBuilderUnitTest.java
+../../chrome/browser/commerce/price_change/android/junit/src/org/chromium/chrome/browser/price_change/PriceChangeModuleMediatorUnitTest.java

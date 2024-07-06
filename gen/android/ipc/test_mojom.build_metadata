@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../ipc/ipc_channel_mojo_unittest.test-mojom"
+  ]
+}

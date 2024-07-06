@@ -1,0 +1,5 @@
+../../chrome/browser/password_manager/android/add_username_dialog/java/src/org/chromium/chrome/browser/add_username_dialog/AddUsernameDialogBridge.java
+../../chrome/browser/password_manager/android/add_username_dialog/java/src/org/chromium/chrome/browser/add_username_dialog/AddUsernameDialogContentProperties.java
+../../chrome/browser/password_manager/android/add_username_dialog/java/src/org/chromium/chrome/browser/add_username_dialog/AddUsernameDialogContentView.java
+../../chrome/browser/password_manager/android/add_username_dialog/java/src/org/chromium/chrome/browser/add_username_dialog/AddUsernameDialogContentViewBinder.java
+../../chrome/browser/password_manager/android/add_username_dialog/java/src/org/chromium/chrome/browser/add_username_dialog/AddUsernameDialogController.java

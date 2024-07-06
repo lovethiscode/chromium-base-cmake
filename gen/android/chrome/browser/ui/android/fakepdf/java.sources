@@ -1,0 +1,6 @@
+../../chrome/browser/ui/android/fakepdf/java/src/org/chromium/chrome/browser/fakepdf/PdfDocument.java
+../../chrome/browser/ui/android/fakepdf/java/src/org/chromium/chrome/browser/fakepdf/PdfDocumentListener.java
+../../chrome/browser/ui/android/fakepdf/java/src/org/chromium/chrome/browser/fakepdf/PdfDocumentRequest.java
+../../chrome/browser/ui/android/fakepdf/java/src/org/chromium/chrome/browser/fakepdf/PdfViewSettings.java
+../../chrome/browser/ui/android/fakepdf/java/src/org/chromium/chrome/browser/fakepdf/PdfViewerFragment.java
+../../chrome/browser/ui/android/fakepdf/java/src/org/chromium/chrome/browser/fakepdf/ProjectorContext.java

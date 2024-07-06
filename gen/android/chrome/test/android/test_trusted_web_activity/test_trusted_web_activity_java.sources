@@ -1,0 +1,3 @@
+../../chrome/test/android/test_trusted_web_activity/src/org/chromium/chrome/browser/browserservices/ActivityWithDeepLink.java
+../../chrome/test/android/test_trusted_web_activity/src/org/chromium/chrome/browser/browserservices/MessengerService.java
+../../chrome/test/android/test_trusted_web_activity/src/org/chromium/chrome/browser/browserservices/TestTrustedWebActivityService.java

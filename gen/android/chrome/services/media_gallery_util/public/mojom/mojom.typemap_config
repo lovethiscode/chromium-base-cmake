@@ -1,0 +1,16 @@
+[
+  {
+    "traits_headers": [
+      "chrome/services/media_gallery_util/public/mojom/media_parser_mojom_traits.h"
+    ],
+    "traits_sources": [
+      "media_parser_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::metadata::AttachedImage",
+        "mojom": "chrome.mojom.AttachedImage"
+      }
+    ]
+  }
+]

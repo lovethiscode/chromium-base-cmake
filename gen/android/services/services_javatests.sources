@@ -1,0 +1,4 @@
+../../services/shape_detection/android/javatests/src/org/chromium/shape_detection/BarcodeDetectionImplTest.java
+../../services/shape_detection/android/javatests/src/org/chromium/shape_detection/FaceDetectionImplTest.java
+../../services/shape_detection/android/javatests/src/org/chromium/shape_detection/TestUtils.java
+../../services/shape_detection/android/javatests/src/org/chromium/shape_detection/TextDetectionImplTest.java

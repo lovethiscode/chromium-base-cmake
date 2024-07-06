@@ -1,0 +1,9 @@
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/DisplayableProfileData.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/IdentityServicesProvider.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/ProfileDataCache.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/SigninChecker.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/SigninManager.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/SigninMetricsUtils.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/SigninPreferencesManager.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/UnifiedConsentServiceBridge.java
+../../chrome/browser/signin/services/android/java/src/org/chromium/chrome/browser/signin/services/WebSigninBridge.java

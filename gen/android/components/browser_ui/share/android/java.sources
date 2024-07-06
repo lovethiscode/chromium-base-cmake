@@ -1,0 +1,6 @@
+../../components/browser_ui/share/android/java/src/org/chromium/components/browser_ui/share/ClipboardImageFileProvider.java
+../../components/browser_ui/share/android/java/src/org/chromium/components/browser_ui/share/IntentHelper.java
+../../components/browser_ui/share/android/java/src/org/chromium/components/browser_ui/share/ShareDialogAdapter.java
+../../components/browser_ui/share/android/java/src/org/chromium/components/browser_ui/share/ShareHelper.java
+../../components/browser_ui/share/android/java/src/org/chromium/components/browser_ui/share/ShareImageFileUtils.java
+../../components/browser_ui/share/android/java/src/org/chromium/components/browser_ui/share/ShareParams.java

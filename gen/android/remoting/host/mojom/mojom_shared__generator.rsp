@@ -1,0 +1,10 @@
+../../remoting/host/mojom/chromoting_host_services.mojom
+../../remoting/host/mojom/desktop_session.mojom
+../../remoting/host/mojom/keyboard_layout.mojom
+../../remoting/host/mojom/remote_security_key.mojom
+../../remoting/host/mojom/remote_support.mojom
+../../remoting/host/mojom/remote_url_opener.mojom
+../../remoting/host/mojom/remoting_host.mojom
+../../remoting/host/mojom/webauthn_proxy.mojom
+../../remoting/host/mojom/webrtc_types.mojom
+../../remoting/host/mojom/wrapped_primitives.mojom

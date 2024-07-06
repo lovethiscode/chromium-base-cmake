@@ -1,0 +1,6 @@
+../../android_webview/javatests/src/org/chromium/android_webview/test/util/DisableOriginTrialsSafeModeTestUtils.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/util/EmbeddedComponentLoaderFactory.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/util/ManifestMetadataMockApplicationContext.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/util/RendererProcessMetricsProviderUtils.java
+../../android_webview/javatests/src/org/chromium/android_webview/test/util/VariationsTestUtils.java
+../../android_webview/test/shell/src/org/chromium/android_webview/test/util/MemoryMetricsLoggerUtils.java

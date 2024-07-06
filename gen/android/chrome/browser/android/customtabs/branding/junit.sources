@@ -1,0 +1,4 @@
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/BrandingCheckerUnitTest.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/BrandingControllerUnitTest.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/SharedPreferencesBrandingTimeStorageUnitTest.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/ToolbarBrandingOverlayCoordinatorUnitTest.java

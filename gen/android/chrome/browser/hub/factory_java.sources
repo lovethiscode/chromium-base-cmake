@@ -1,0 +1,5 @@
+gen/chrome/browser/hub/factory_java/chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/FadeHubLayoutAnimationFactory.java
+gen/chrome/browser/hub/factory_java/chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubLayoutAnimationRunnerFactory.java
+gen/chrome/browser/hub/factory_java/chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/HubManagerFactory.java
+gen/chrome/browser/hub/factory_java/chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/ShrinkExpandHubLayoutAnimationFactory.java
+gen/chrome/browser/hub/factory_java/chrome/browser/hub/internal/android/java/src/org/chromium/chrome/browser/hub/TranslateHubLayoutAnimationFactory.java

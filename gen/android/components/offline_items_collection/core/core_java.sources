@@ -1,0 +1,14 @@
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/ContentId.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/LegacyHelpers.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/OfflineContentAggregatorBridge.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/OfflineContentProvider.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/OfflineItem.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/OfflineItemShareInfo.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/OfflineItemVisuals.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/OpenParams.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/ShareCallback.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/UpdateDelta.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/VisualsCallback.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/bridges/OfflineItemBridge.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/bridges/OfflineItemShareInfoBridge.java
+../../components/offline_items_collection/core/android/java/src/org/chromium/components/offline_items_collection/bridges/OfflineItemVisualsBridge.java

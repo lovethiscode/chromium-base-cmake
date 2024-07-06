@@ -1,0 +1,5 @@
+../../components/feature_engagement/public/android/java/src/org/chromium/components/feature_engagement/CppWrappedTestTracker.java
+../../components/feature_engagement/public/android/java/src/org/chromium/components/feature_engagement/EventConstants.java
+../../components/feature_engagement/public/android/java/src/org/chromium/components/feature_engagement/FeatureConstants.java
+../../components/feature_engagement/public/android/java/src/org/chromium/components/feature_engagement/Tracker.java
+../../components/feature_engagement/public/android/java/src/org/chromium/components/feature_engagement/TriggerDetails.java

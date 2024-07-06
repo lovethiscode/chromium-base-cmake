@@ -1,0 +1,7 @@
+../../chrome/android/features/start_surface/java/res/drawable/home_surface_ui_background.xml
+../../chrome/android/features/start_surface/java/res/layout/query_tiles_layout.xml
+../../chrome/android/features/start_surface/java/res/layout/tasks_view_layout.xml
+../../chrome/android/features/start_surface/java/res/values-night/dimens.xml
+../../chrome/android/features/start_surface/java/res/values-sw600dp/dimens.xml
+../../chrome/android/features/start_surface/java/res/values/dimens.xml
+../../chrome/android/features/start_surface/java/res/values/ids.xml

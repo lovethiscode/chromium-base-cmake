@@ -1,0 +1,5 @@
+../../components/variations/android/java/src/org/chromium/components/variations/NormalizedMurmurHashEntropyProvider.java
+../../components/variations/android/java/src/org/chromium/components/variations/VariationsAssociatedData.java
+../../components/variations/android/java/src/org/chromium/components/variations/VariationsCompressionUtils.java
+../../components/variations/android/java/src/org/chromium/components/variations/firstrun/VariationsSeedBridge.java
+../../components/variations/android/java/src/org/chromium/components/variations/firstrun/VariationsSeedFetcher.java

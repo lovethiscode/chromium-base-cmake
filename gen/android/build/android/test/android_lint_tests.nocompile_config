@@ -1,0 +1,10 @@
+[
+  {
+    "expect_regex": "Warning:.*DefaultLocale",
+    "target": "//build/android/test/nocompile_gn:default_locale_lint_test"
+  },
+  {
+    "expect_regex": "Error:.*NewApi",
+    "target": "//build/android/test/nocompile_gn:new_api_lint_test"
+  }
+]

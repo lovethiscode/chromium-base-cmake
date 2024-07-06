@@ -1,0 +1,11 @@
+../../chrome/browser/creator/android/java/res/drawable/follow_add.xml
+../../chrome/browser/creator/android/java/res/drawable/following_checkmark.xml
+../../chrome/browser/creator/android/java/res/drawable/profile_background.xml
+../../chrome/browser/creator/android/java/res/layout/creator_activity.xml
+../../chrome/browser/creator/android/java/res/layout/creator_bottomsheet_toolbar.xml
+../../chrome/browser/creator/android/java/res/layout/creator_layout.xml
+../../chrome/browser/creator/android/java/res/layout/creator_privacy.xml
+../../chrome/browser/creator/android/java/res/layout/creator_profile.xml
+../../chrome/browser/creator/android/java/res/values/dimens.xml
+../../chrome/browser/creator/android/java/res/values/ids.xml
+../../chrome/browser/creator/android/java/res/values/styles.xml

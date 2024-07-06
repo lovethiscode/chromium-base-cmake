@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../third_party/abseil-cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../third_party/boringssl/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../third_party/cpu_features/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../third_party/googletest/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../third_party/libevent" vcs="Git" />
+  </component>
+</project>

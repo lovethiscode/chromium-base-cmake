@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../content/test/echo.test-mojom"
+  ]
+}

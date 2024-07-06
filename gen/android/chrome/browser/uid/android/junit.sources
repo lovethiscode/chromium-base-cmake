@@ -1,0 +1,3 @@
+../../chrome/browser/uid/android/junit/src/org/chromium/chrome/browser/uid/SettingsSecureBasedIdentificationGeneratorTest.java
+../../chrome/browser/uid/android/junit/src/org/chromium/chrome/browser/uid/UniqueIdentificationGeneratorFactoryTest.java
+../../chrome/browser/uid/android/junit/src/org/chromium/chrome/browser/uid/UuidBasedUniqueIdentificationGeneratorTest.java

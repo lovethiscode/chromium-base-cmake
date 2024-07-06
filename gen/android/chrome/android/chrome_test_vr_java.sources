@@ -1,0 +1,13 @@
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrPermissionTestFramework.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrTestFramework.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/VrTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrCardboardDeviceTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrCardboardInputTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrCardboardPermissionTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrCardboardQrCodeTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrCardboardTabTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/WebXrVrCardboardTransitionTest.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/ChromeTabbedActivityVrCardboardTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/CustomTabActivityVrCardboardTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/rules/WebappActivityVrCardboardTestRule.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/vr/util/VrCardboardTestRuleUtils.java

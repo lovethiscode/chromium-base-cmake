@@ -1,0 +1,15 @@
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationBuilderBaseTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationIntentInterceptorTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationSystemStatusUtilUnitTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationTestUtil.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/PendingIntentProviderTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/StandardNotificationBuilderTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/ThrottlingNotificationSchedulerTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/ChannelsInitializerTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/ChannelsUpdaterTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/ChromeChannelDefinitionsTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionChangeReceiverTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionControllerTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionRationaleBottomSheetTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionRationaleDialogControllerTest.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/TestRationaleDelegate.java

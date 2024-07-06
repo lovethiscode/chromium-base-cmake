@@ -1,0 +1,17 @@
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/ChromeNotificationWrapperCompatBuilder.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationBuilderBase.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationConstants.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationIntentInterceptor.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationSettingsBridge.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationSystemStatusUtil.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationUmaTracker.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/NotificationWrapperBuilderFactory.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/StandardNotificationBuilder.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/ChannelsUpdater.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/ChromeChannelDefinitions.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/LocaleChangedBroadcastReceiver.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/SiteChannelsManager.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionChangeReceiver.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionController.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionRationaleBottomSheet.java
+../../chrome/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/permissions/NotificationPermissionRationaleDialogController.java

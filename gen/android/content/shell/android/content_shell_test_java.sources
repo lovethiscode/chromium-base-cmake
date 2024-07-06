@@ -1,0 +1,4 @@
+../../content/shell/android/javatests/src/org/chromium/content_shell_apk/ContentShellActivityTestRule.java
+../../content/shell/android/javatests/src/org/chromium/content_shell_apk/ContentShellPreconditionsTest.java
+../../content/shell/android/javatests/src/org/chromium/content_shell_apk/ContentShellShellManagementTest.java
+../../content/shell/android/javatests/src/org/chromium/content_shell_apk/ContentShellUrlTest.java

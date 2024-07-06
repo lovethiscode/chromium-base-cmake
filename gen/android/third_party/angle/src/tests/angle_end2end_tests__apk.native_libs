@@ -1,0 +1,7 @@
+libangle_util.so
+libGLESv2_angle.so
+libEGL_angle.so
+libGLESv1_CM_angle.so
+libGLESv2_vulkan_secondaries_angle.so
+libEGL_vulkan_secondaries_angle.so
+libangle_end2end_tests__library.so

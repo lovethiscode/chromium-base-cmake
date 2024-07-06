@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../../../../device/vr/public/mojom/xr_common.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../content/browser/xr/webxr_internals/mojom/webxr_internals.mojom"
+  ]
+}

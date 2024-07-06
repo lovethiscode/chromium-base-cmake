@@ -1,0 +1,3 @@
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/test_support/ShadowDirectWritingSettingsHelper.java
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/test_support/ShadowGlobalSettings.java
+../../components/stylus_handwriting/android/junit/src/org/chromium/components/stylus_handwriting/test_support/ShadowSecureSettings.java

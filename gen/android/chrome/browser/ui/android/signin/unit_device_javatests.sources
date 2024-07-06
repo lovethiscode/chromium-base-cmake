@@ -1,0 +1,9 @@
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/ConfirmImportSyncDataDialogTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/ConfirmManagedSyncDataDialogTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/ConfirmSyncDataIntegrationTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/ConfirmSyncDataStateMachineDelegateTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/SignOutCoordinatorTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/SignOutDialogRenderTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/SignOutDialogTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/account_picker/AccountPickerDialogTest.java
+../../chrome/browser/ui/android/signin/java/src/org/chromium/chrome/browser/ui/signin/fullscreen_signin/UMADialogTest.java

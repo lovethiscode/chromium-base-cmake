@@ -1,0 +1,18 @@
+{
+  "deps": [
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../printing/mojom/mojom.build_metadata",
+    "../../../../../sandbox/policy/mojom/mojom.build_metadata",
+    "../../../../../ui/gfx/geometry/mojom/mojom.build_metadata",
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata",
+    "../../../../../printing/backend/mojom/mojom.build_metadata",
+    "../../../../../printing/mojom/printing_context.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/services/printing/public/mojom/pdf_nup_converter.mojom",
+    "../../../../../../../../chrome/services/printing/public/mojom/pdf_render_settings.mojom",
+    "../../../../../../../../chrome/services/printing/public/mojom/pdf_to_pwg_raster_converter.mojom",
+    "../../../../../../../../chrome/services/printing/public/mojom/printing_service.mojom",
+    "../../../../../../../../chrome/services/printing/public/mojom/print_backend_service.mojom"
+  ]
+}

@@ -1,0 +1,6 @@
+../../components/policy/android/junit/src/org/chromium/components/policy/AbstractAppRestrictionsProviderTest.java
+../../components/policy/android/junit/src/org/chromium/components/policy/CombinedPolicyProviderTest.java
+../../components/policy/android/junit/src/org/chromium/components/policy/PolicyCacheProviderTest.java
+../../components/policy/android/junit/src/org/chromium/components/policy/PolicyCacheTest.java
+../../components/policy/android/junit/src/org/chromium/components/policy/PolicyConverterTest.java
+../../components/policy/android/junit/src/org/chromium/components/policy/test/annotations/PoliciesTest.java

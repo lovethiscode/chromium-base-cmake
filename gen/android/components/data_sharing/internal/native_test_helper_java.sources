@@ -1,0 +1,3 @@
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/DataSharingSDKDelegateAndroidTestSupport.java
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/DataSharingSDKDelegateTestImpl.java
+../../components/data_sharing/internal/android/java/src/org/chromium/components/data_sharing/TestServiceObserver.java

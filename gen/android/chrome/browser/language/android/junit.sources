@@ -1,0 +1,7 @@
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/AppLanguagePromoDialogTest.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/AppLocaleUtilsTest.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/FakeLanguageBridgeJni.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/LanguageBridgeTest.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/LanguageTestUtils.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/language/settings/LanguagesManagerTest.java
+../../chrome/browser/language/android/java/src/org/chromium/chrome/browser/translate/FakeTranslateBridgeJni.java

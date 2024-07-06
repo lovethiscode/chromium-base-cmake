@@ -1,0 +1,9 @@
+../../components/background_task_scheduler/internal/android/java/src/org/chromium/components/background_task_scheduler/internal/BackgroundTaskSchedulerImplWithMockTest.java
+../../components/background_task_scheduler/internal/android/java/src/org/chromium/components/background_task_scheduler/internal/BackgroundTaskSchedulerJobServiceTest.java
+../../components/background_task_scheduler/internal/android/java/src/org/chromium/components/background_task_scheduler/internal/MockBackgroundTaskSchedulerDelegate.java
+../../components/background_task_scheduler/internal/android/junit/src/org/chromium/components/background_task_scheduler/internal/BackgroundTaskJobServiceTest.java
+../../components/background_task_scheduler/internal/android/junit/src/org/chromium/components/background_task_scheduler/internal/BackgroundTaskSchedulerImplTest.java
+../../components/background_task_scheduler/internal/android/junit/src/org/chromium/components/background_task_scheduler/internal/BackgroundTaskSchedulerUmaTest.java
+../../components/background_task_scheduler/internal/android/junit/src/org/chromium/components/background_task_scheduler/internal/TaskInfoTest.java
+../../components/background_task_scheduler/internal/android/junit/src/org/chromium/components/background_task_scheduler/internal/TestBackgroundTask.java
+../../components/background_task_scheduler/internal/android/junit/src/org/chromium/components/background_task_scheduler/internal/TestBackgroundTaskFactory.java

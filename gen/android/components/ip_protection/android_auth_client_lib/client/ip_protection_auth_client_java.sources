@@ -1,0 +1,5 @@
+../../components/ip_protection/android_auth_client_lib/client/java/src/org/chromium/components/ip_protection_auth/BindCallbackListener.java
+../../components/ip_protection/android_auth_client_lib/client/java/src/org/chromium/components/ip_protection_auth/ByteArrayCallbackListener.java
+../../components/ip_protection/android_auth_client_lib/client/java/src/org/chromium/components/ip_protection_auth/IpProtectionAuthClient.java
+../../components/ip_protection/android_auth_client_lib/client/java/src/org/chromium/components/ip_protection_auth/IpProtectionAuthServiceCallback.java
+../../components/ip_protection/android_auth_client_lib/client/java/src/org/chromium/components/ip_protection_auth/IpProtectionByteArrayCallback.java

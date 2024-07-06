@@ -1,0 +1,3 @@
+../../components/browser_ui/site_settings/android/junit/src/org/chromium/components/browser_ui/site_settings/AddExceptionPreferenceUnitTest.java
+../../components/browser_ui/site_settings/android/junit/src/org/chromium/components/browser_ui/site_settings/DesktopSiteMetricsUnitTest.java
+../../components/browser_ui/site_settings/android/junit/src/org/chromium/components/browser_ui/site_settings/SiteDataCleanerUnitTest.java

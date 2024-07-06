@@ -1,0 +1,3 @@
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/DecoderServiceHostTest.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/ImageDecoderTest.java
+../../components/browser_ui/photo_picker/android/java/src/org/chromium/components/browser_ui/photo_picker/PhotoPickerDialogTest.java

@@ -1,0 +1,5 @@
+../../third_party/webrtc/rtc_base/java/src/org/webrtc/ContextUtils.java
+../../third_party/webrtc/rtc_base/java/src/org/webrtc/Loggable.java
+../../third_party/webrtc/rtc_base/java/src/org/webrtc/Logging.java
+../../third_party/webrtc/rtc_base/java/src/org/webrtc/Size.java
+../../third_party/webrtc/rtc_base/java/src/org/webrtc/ThreadUtils.java

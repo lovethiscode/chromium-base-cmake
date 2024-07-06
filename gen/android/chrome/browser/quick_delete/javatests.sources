@@ -1,0 +1,4 @@
+../../chrome/browser/quick_delete/android/javatests/src/org/chromium/chrome/browser/quick_delete/QuickDeleteAnimationGradientDrawableRenderTest.java
+../../chrome/browser/quick_delete/android/javatests/src/org/chromium/chrome/browser/quick_delete/QuickDeleteBridgeTest.java
+../../chrome/browser/quick_delete/android/javatests/src/org/chromium/chrome/browser/quick_delete/QuickDeleteControllerTest.java
+../../chrome/browser/quick_delete/android/javatests/src/org/chromium/chrome/browser/quick_delete/QuickDeleteDialogDelegateTest.java

@@ -1,0 +1,7 @@
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudControllerUnitTest.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudIPHControllerUnitTest.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudMiniPlayerSceneLayerUnitTest.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudPrefsUnitTest.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/ReadAloudToolbarButtonControllerUnitTest.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/TabModelTabObserverUnitTest.java
+../../chrome/browser/readaloud/android/java/src/org/chromium/chrome/browser/readaloud/TapToSeekHandlerUnitTest.java

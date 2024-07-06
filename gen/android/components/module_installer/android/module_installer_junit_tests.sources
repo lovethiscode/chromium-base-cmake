@@ -1,0 +1,8 @@
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/builder/ModuleEngineTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/builder/ModuleTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/engine/ApkEngineTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/engine/SplitCompatEngineTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/logger/PlayCoreLoggerTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/logger/SplitInstallFailureLoggerTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/logger/SplitInstallStatusLoggerTest.java
+../../components/module_installer/android/junit/src/org/chromium/components/module_installer/observer/ActivityObserverTest.java

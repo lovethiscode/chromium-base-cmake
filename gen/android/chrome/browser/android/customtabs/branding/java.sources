@@ -1,0 +1,8 @@
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/BrandingChecker.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/BrandingController.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/BrandingDecision.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/SharedPreferencesBrandingTimeStorage.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/ToolbarBrandingDelegate.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/ToolbarBrandingOverlayCoordinator.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/ToolbarBrandingOverlayProperties.java
+../../chrome/browser/android/customtabs/branding/java/src/org/chromium/chrome/browser/customtabs/features/branding/ToolbarBrandingOverlayViewBinder.java

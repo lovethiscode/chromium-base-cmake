@@ -1,0 +1,5 @@
+../../chrome/android/javatests/src/org/chromium/chrome/browser/compositor/bottombar/OverlayPanelManagerWrapper.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/customtabs/CustomTabsIntentTestUtils.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/download/MockDownloadNotificationService.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/download/TestDownloadDirectoryProvider.java
+../../chrome/android/javatests/src/org/chromium/chrome/browser/tabmodel/TestTabModelDirectory.java

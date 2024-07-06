@@ -1,0 +1,3 @@
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/AutocompleteSchemeClassifier.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/OmniboxUrlEmphasizer.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/SecurityStatusIcon.java

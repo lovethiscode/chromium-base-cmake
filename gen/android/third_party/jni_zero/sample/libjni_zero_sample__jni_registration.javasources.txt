@@ -1,0 +1,3 @@
+../../third_party/jni_zero/sample/java/src/org/jni_zero/sample/Sample.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniInit.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniUtil.java

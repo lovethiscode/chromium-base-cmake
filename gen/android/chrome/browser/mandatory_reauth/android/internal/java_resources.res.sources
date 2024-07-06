@@ -1,0 +1,7 @@
+../../chrome/browser/mandatory_reauth/android/internal/java/res/drawable-hdpi/mandatory_reauth_opt_in.png
+../../chrome/browser/mandatory_reauth/android/internal/java/res/drawable-mdpi/mandatory_reauth_opt_in.png
+../../chrome/browser/mandatory_reauth/android/internal/java/res/drawable-xhdpi/mandatory_reauth_opt_in.png
+../../chrome/browser/mandatory_reauth/android/internal/java/res/drawable-xxhdpi/mandatory_reauth_opt_in.png
+../../chrome/browser/mandatory_reauth/android/internal/java/res/drawable-xxxhdpi/mandatory_reauth_opt_in.png
+../../chrome/browser/mandatory_reauth/android/internal/java/res/layout/mandatory_reauth_opt_in_bottom_sheet.xml
+../../chrome/browser/mandatory_reauth/android/internal/java/res/values/dimens.xml

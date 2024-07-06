@@ -1,0 +1,4 @@
+../../third_party/jni_zero/test/java/src/org/jni_zero/SampleForAnnotationProcessor.java
+../../third_party/jni_zero/test/java/src/org/jni_zero/SampleForTests.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniInit.java
+../../third_party/jni_zero/java/src/org/jni_zero/JniUtil.java

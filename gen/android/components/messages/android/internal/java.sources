@@ -1,0 +1,16 @@
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageAnimationCoordinator.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageAutoDismissTimer.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerCoordinator.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerMediator.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerView.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageBannerViewBinder.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageDimens.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageDispatcherImpl.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageQueueManager.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageScopeChange.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessageStateHandler.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/MessagesFactory.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/ScopeChangeController.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/ScopeKey.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/SingleActionMessage.java
+../../components/messages/android/internal/java/src/org/chromium/components/messages/SwipeAnimationHandler.java

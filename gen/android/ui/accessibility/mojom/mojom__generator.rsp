@@ -1,0 +1,11 @@
+../../ui/accessibility/mojom/ax_action_data.mojom
+../../ui/accessibility/mojom/ax_event.mojom
+../../ui/accessibility/mojom/ax_event_intent.mojom
+../../ui/accessibility/mojom/ax_mode.mojom
+../../ui/accessibility/mojom/ax_node_data.mojom
+../../ui/accessibility/mojom/ax_relative_bounds.mojom
+../../ui/accessibility/mojom/ax_tree_checks.mojom
+../../ui/accessibility/mojom/ax_tree_data.mojom
+../../ui/accessibility/mojom/ax_tree_id.mojom
+../../ui/accessibility/mojom/ax_tree_update.mojom
+../../ui/accessibility/mojom/ax_updates_and_events.mojom
